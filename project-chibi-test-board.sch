@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Project Chibi Test Board"
 Date ""
 Rev "A"
@@ -37,5 +37,11 @@ S 5200 550  1500 1000
 U 5B491814
 F0 "tgt-13x20" 50
 F1 "tgt-13x20.sch" 50
+$EndSheet
+$Sheet
+S 550  1700 1500 1000
+U 5B491818
+F0 "jtag-iface" 50
+F1 "jtag-iface.sch" 50
 $EndSheet
 $EndSCHEMATC
