@@ -866,34 +866,6 @@ Wire Wire Line
 Wire Wire Line
 	14200 4800 12550 4800
 $Comp
-L Connector_Specialized:Conn_Coaxial J?
-U 1 1 5C352E55
-P 11150 2650
-AR Path="/5B491809/5C352E55" Ref="J?"  Part="1" 
-AR Path="/5B491811/5C352E55" Ref="J?"  Part="1" 
-AR Path="/5B491814/5C352E55" Ref="J18"  Part="1" 
-F 0 "J18" H 11249 2626 50  0000 L CNN
-F 1 "Conn_Coaxial" H 11249 2535 50  0000 L CNN
-F 2 "" H 11150 2650 50  0001 C CNN
-F 3 "" H 11150 2650 50  0001 C CNN
-	1    11150 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:Conn_Coaxial J?
-U 1 1 5C352E5C
-P 11150 3000
-AR Path="/5B491809/5C352E5C" Ref="J?"  Part="1" 
-AR Path="/5B491811/5C352E5C" Ref="J?"  Part="1" 
-AR Path="/5B491814/5C352E5C" Ref="J19"  Part="1" 
-F 0 "J19" H 11249 2976 50  0000 L CNN
-F 1 "Conn_Coaxial" H 11249 2885 50  0000 L CNN
-F 2 "" H 11150 3000 50  0001 C CNN
-F 3 "" H 11150 3000 50  0001 C CNN
-	1    11150 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5C352E63
 P 11800 2650
@@ -962,16 +934,6 @@ Wire Wire Line
 Connection ~ 11350 2750
 Wire Wire Line
 	11350 2750 11350 2850
-Wire Wire Line
-	11600 2650 11000 2650
-Wire Wire Line
-	11000 3000 11600 3000
-Connection ~ 11000 3000
-Wire Wire Line
-	11000 2650 10350 2650
-Connection ~ 11000 2650
-Wire Wire Line
-	10350 3000 11000 3000
 Text Label 10400 3000 0    50   ~ 0
 CLK1
 Text Label 10400 2650 0    50   ~ 0
@@ -1727,4 +1689,36 @@ F 3 "" H 13200 9150 50  0001 C CNN
 	1    13200 9150
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J18
+U 1 1 5B4EF59C
+P 11150 2650
+F 0 "J18" H 10950 2750 50  0000 L CNN
+F 1 "Conn_Coaxial" H 11249 2535 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 11150 2650 50  0001 C CNN
+F 3 " ~" H 11150 2650 50  0001 C CNN
+	1    11150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J19
+U 1 1 5B4EF65B
+P 11150 3000
+F 0 "J19" H 10950 3100 50  0000 L CNN
+F 1 "Conn_Coaxial" H 11249 2885 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 11150 3000 50  0001 C CNN
+F 3 " ~" H 11150 3000 50  0001 C CNN
+	1    11150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2650 10950 2650
+Wire Wire Line
+	10350 3000 10950 3000
+Connection ~ 10950 2650
+Wire Wire Line
+	10950 2650 11600 2650
+Connection ~ 10950 3000
+Wire Wire Line
+	10950 3000 11600 3000
 $EndSCHEMATC

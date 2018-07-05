@@ -526,28 +526,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 8300 3300 8500
 $Comp
-L Connector_Specialized:Conn_Coaxial J2
-U 1 1 5C3086D2
-P 4400 2100
-F 0 "J2" H 4250 2250 50  0000 L CNN
-F 1 "Conn_Coaxial" H 4499 1985 50  0001 L CNN
-F 2 "" H 4400 2100 50  0001 C CNN
-F 3 "" H 4400 2100 50  0001 C CNN
-	1    4400 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:Conn_Coaxial J3
-U 1 1 5C308916
-P 4400 2450
-F 0 "J3" H 4250 2600 50  0000 L CNN
-F 1 "Conn_Coaxial" H 4499 2335 50  0001 L CNN
-F 2 "" H 4400 2450 50  0001 C CNN
-F 3 "" H 4400 2450 50  0001 C CNN
-	1    4400 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 5C308AB8
 P 5050 2100
@@ -608,19 +586,9 @@ Connection ~ 4600 2200
 Wire Wire Line
 	4600 2200 4600 2300
 Wire Wire Line
-	4850 2100 4250 2100
-Wire Wire Line
-	4250 2100 2400 2100
-Connection ~ 4250 2100
-Wire Wire Line
 	2400 2300 4150 2300
 Wire Wire Line
 	4150 2300 4150 2450
-Wire Wire Line
-	4150 2450 4250 2450
-Wire Wire Line
-	4250 2450 4850 2450
-Connection ~ 4250 2450
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5C315854
@@ -1177,4 +1145,36 @@ F 3 "" H 13300 9650 50  0001 C CNN
 	1    13300 9650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5B4EC3CD
+P 4400 2100
+F 0 "J2" H 4500 2150 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4499 1985 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 4400 2100 50  0001 C CNN
+F 3 " ~" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5B4EC699
+P 4400 2450
+F 0 "J3" H 4500 2500 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4499 2335 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 4400 2450 50  0001 C CNN
+F 3 " ~" H 4400 2450 50  0001 C CNN
+	1    4400 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2100 4200 2100
+Wire Wire Line
+	4150 2450 4200 2450
+Connection ~ 4200 2100
+Wire Wire Line
+	4200 2100 4850 2100
+Connection ~ 4200 2450
+Wire Wire Line
+	4200 2450 4850 2450
 $EndSCHEMATC

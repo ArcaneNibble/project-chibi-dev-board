@@ -802,32 +802,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 8600 9300 8600
 $Comp
-L Connector_Specialized:Conn_Coaxial J?
-U 1 1 5C31DC8A
-P 11550 6500
-AR Path="/5B491809/5C31DC8A" Ref="J?"  Part="1" 
-AR Path="/5B491811/5C31DC8A" Ref="J42"  Part="1" 
-F 0 "J42" H 11649 6476 50  0000 L CNN
-F 1 "Conn_Coaxial" H 11649 6385 50  0000 L CNN
-F 2 "" H 11550 6500 50  0001 C CNN
-F 3 "" H 11550 6500 50  0001 C CNN
-	1    11550 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:Conn_Coaxial J?
-U 1 1 5C31DC91
-P 11550 6850
-AR Path="/5B491809/5C31DC91" Ref="J?"  Part="1" 
-AR Path="/5B491811/5C31DC91" Ref="J43"  Part="1" 
-F 0 "J43" H 11649 6826 50  0000 L CNN
-F 1 "Conn_Coaxial" H 11649 6735 50  0000 L CNN
-F 2 "" H 11550 6850 50  0001 C CNN
-F 3 "" H 11550 6850 50  0001 C CNN
-	1    11550 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5C31DC98
 P 12200 6500
@@ -893,11 +867,6 @@ Wire Wire Line
 Connection ~ 11750 6600
 Wire Wire Line
 	11750 6600 11750 6700
-Wire Wire Line
-	12000 6500 11400 6500
-Wire Wire Line
-	11400 6850 12000 6850
-Connection ~ 11400 6850
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 5C31DCC4
@@ -947,11 +916,6 @@ Wire Wire Line
 	12100 4500 12100 4400
 Wire Wire Line
 	13600 4700 12000 4700
-Wire Wire Line
-	11400 6500 10750 6500
-Connection ~ 11400 6500
-Wire Wire Line
-	10750 6850 11400 6850
 Text Label 10800 6850 0    50   ~ 0
 CLK1
 Text Label 10800 6500 0    50   ~ 0
@@ -1729,4 +1693,36 @@ F 3 "" H 13200 9250 50  0001 C CNN
 	1    13200 9250
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J42
+U 1 1 5B4EE112
+P 11550 6500
+F 0 "J42" H 11300 6600 50  0000 L CNN
+F 1 "Conn_Coaxial" H 11649 6385 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 11550 6500 50  0001 C CNN
+F 3 " ~" H 11550 6500 50  0001 C CNN
+	1    11550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J43
+U 1 1 5B4EE1D3
+P 11550 6850
+F 0 "J43" H 11300 6950 50  0000 L CNN
+F 1 "Conn_Coaxial" H 11649 6735 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 11550 6850 50  0001 C CNN
+F 3 " ~" H 11550 6850 50  0001 C CNN
+	1    11550 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 6500 11350 6500
+Wire Wire Line
+	10750 6850 11350 6850
+Connection ~ 11350 6500
+Wire Wire Line
+	11350 6500 12000 6500
+Connection ~ 11350 6850
+Wire Wire Line
+	11350 6850 12000 6850
 $EndSCHEMATC

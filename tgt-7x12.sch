@@ -576,32 +576,6 @@ Wire Wire Line
 Wire Wire Line
 	9300 8200 9000 8200
 $Comp
-L Connector_Specialized:Conn_Coaxial J?
-U 1 1 5C31BDC8
-P 4500 5100
-AR Path="/5B491809/5C31BDC8" Ref="J?"  Part="1" 
-AR Path="/5B49180E/5C31BDC8" Ref="J26"  Part="1" 
-F 0 "J26" H 4300 5200 50  0000 L CNN
-F 1 "Conn_Coaxial" H 4599 4985 50  0001 L CNN
-F 2 "" H 4500 5100 50  0001 C CNN
-F 3 "" H 4500 5100 50  0001 C CNN
-	1    4500 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Specialized:Conn_Coaxial J?
-U 1 1 5C31BDCF
-P 4500 5450
-AR Path="/5B491809/5C31BDCF" Ref="J?"  Part="1" 
-AR Path="/5B49180E/5C31BDCF" Ref="J27"  Part="1" 
-F 0 "J27" H 4300 5550 50  0000 L CNN
-F 1 "Conn_Coaxial" H 4599 5335 50  0001 L CNN
-F 2 "" H 4500 5450 50  0001 C CNN
-F 3 "" H 4500 5450 50  0001 C CNN
-	1    4500 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5C31BDD6
 P 5150 5100
@@ -667,16 +641,6 @@ Wire Wire Line
 Connection ~ 4700 5200
 Wire Wire Line
 	4700 5200 4700 5300
-Wire Wire Line
-	4950 5100 4350 5100
-Wire Wire Line
-	4350 5100 2500 5100
-Connection ~ 4350 5100
-Wire Wire Line
-	4250 5450 4350 5450
-Wire Wire Line
-	4350 5450 4950 5450
-Connection ~ 4350 5450
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 5C31BE02
@@ -1381,4 +1345,36 @@ F 3 "" H 13400 9200 50  0001 C CNN
 	1    13400 9200
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J26
+U 1 1 5B4ED163
+P 4500 5100
+F 0 "J26" H 4300 5200 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4599 4985 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 4500 5100 50  0001 C CNN
+F 3 " ~" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J27
+U 1 1 5B4ED1FA
+P 4500 5450
+F 0 "J27" H 4300 5550 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4599 5335 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 4500 5450 50  0001 C CNN
+F 3 " ~" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5100 4300 5100
+Wire Wire Line
+	4250 5450 4300 5450
+Connection ~ 4300 5100
+Wire Wire Line
+	4300 5100 4950 5100
+Connection ~ 4300 5450
+Wire Wire Line
+	4300 5450 4950 5450
 $EndSCHEMATC

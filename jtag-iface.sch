@@ -26,17 +26,6 @@ F 3 "http://www.ftdichip.com/Products/ICs/FT232H.htm" H 4100 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:USB_B_Micro J23
-U 1 1 5B491ABE
-P 800 1100
-F 0 "J23" H 855 1567 50  0000 C CNN
-F 1 "USB_B_Micro" H 855 1476 50  0000 C CNN
-F 2 "" H 950 1050 50  0001 C CNN
-F 3 "~" H 950 1050 50  0001 C CNN
-	1    800  1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L memory-azonenberg:93LC56BT-OT U5
 U 1 1 5B496714
 P 2150 6100
@@ -148,9 +137,6 @@ F 3 "" H 800 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	800  1600 800  1500
-Wire Wire Line
-	700  1500 800  1500
-Connection ~ 800  1500
 Wire Wire Line
 	1400 900  1500 900 
 Wire Wire Line
@@ -2233,4 +2219,18 @@ Text Label 4850 10050 0    50   ~ 0
 AUXJTAG_TDI
 Text Label 4850 10150 0    50   ~ 0
 AUXJTAG_TDO
+$Comp
+L Connector:USB_B_Micro J23
+U 1 1 5B4BCB5F
+P 800 1100
+F 0 "J23" H 855 1567 50  0000 C CNN
+F 1 "USB_B_Micro" H 855 1476 50  0000 C CNN
+F 2 "rqou:USB-MICRO-AB" H 950 1050 50  0001 C CNN
+F 3 "~" H 950 1050 50  0001 C CNN
+	1    800  1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1500 800  1500
+Connection ~ 800  1500
 $EndSCHEMATC
