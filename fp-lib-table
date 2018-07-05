@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name rqou)(type KiCad)(uri /home/rqou/EE/rqou-kicad-libs/rqou.pretty)(options "")(descr ""))
+  (lib (name azonenberg_pcb)(type KiCad)(uri /home/rqou/EE/azonenberg-kicad-libs/layout/azonenberg_pcb.pretty)(options "")(descr ""))
+)
