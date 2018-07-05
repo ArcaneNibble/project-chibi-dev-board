@@ -1148,7 +1148,7 @@ AR Path="/5B491809/5C811734" Ref="J?"  Part="1"
 AR Path="/5B49180E/5C811734" Ref="J30"  Part="1" 
 F 0 "J30" H 6330 7442 50  0000 L CNN
 F 1 "Conn_01x02" H 6330 7351 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6250 7450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 6250 7450 50  0001 C CNN
 F 3 "~" H 6250 7450 50  0001 C CNN
 	1    6250 7450
 	1    0    0    1   
@@ -1161,7 +1161,7 @@ AR Path="/5B491809/5C81173B" Ref="J?"  Part="1"
 AR Path="/5B49180E/5C81173B" Ref="J31"  Part="1" 
 F 0 "J31" H 6330 7742 50  0000 L CNN
 F 1 "Conn_01x02" H 6330 7651 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6250 7750 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal" H 6250 7750 50  0001 C CNN
 F 3 "~" H 6250 7750 50  0001 C CNN
 	1    6250 7750
 	1    0    0    1   
