@@ -987,41 +987,41 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J?
 U 1 1 5C4A279E
-P 1650 1150
+P 1750 1250
 AR Path="/5B491809/5C4A279E" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A279E" Ref="J12"  Part="1" 
-F 0 "J12" H 1700 1567 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1700 1476 50  0000 C CNN
-F 2 "" H 1650 1150 50  0001 C CNN
-F 3 "~" H 1650 1150 50  0001 C CNN
-	1    1650 1150
-	1    0    0    -1  
+F 0 "J12" H 1800 1667 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 1576 50  0000 C CNN
+F 2 "" H 1750 1250 50  0001 C CNN
+F 3 "~" H 1750 1250 50  0001 C CNN
+	1    1750 1250
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J?
 U 1 1 5C4A27A5
-P 1650 2050
+P 1750 2150
 AR Path="/5B491809/5C4A27A5" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A27A5" Ref="J13"  Part="1" 
-F 0 "J13" H 1700 2467 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1700 2376 50  0000 C CNN
-F 2 "" H 1650 2050 50  0001 C CNN
-F 3 "~" H 1650 2050 50  0001 C CNN
-	1    1650 2050
-	1    0    0    -1  
+F 0 "J13" H 1800 2567 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 2476 50  0000 C CNN
+F 2 "" H 1750 2150 50  0001 C CNN
+F 3 "~" H 1750 2150 50  0001 C CNN
+	1    1750 2150
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J?
 U 1 1 5C4A27AC
-P 1650 2950
+P 1750 3050
 AR Path="/5B491809/5C4A27AC" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A27AC" Ref="J14"  Part="1" 
-F 0 "J14" H 1700 3367 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1700 3276 50  0000 C CNN
-F 2 "" H 1650 2950 50  0001 C CNN
-F 3 "~" H 1650 2950 50  0001 C CNN
-	1    1650 2950
-	1    0    0    -1  
+F 0 "J14" H 1800 3467 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 3376 50  0000 C CNN
+F 2 "" H 1750 3050 50  0001 C CNN
+F 3 "~" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1450 3150 1400 3150
@@ -1215,15 +1215,15 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J?
 U 1 1 5C4A2816
-P 1650 3850
+P 1750 3950
 AR Path="/5B491809/5C4A2816" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A2816" Ref="J15"  Part="1" 
-F 0 "J15" H 1700 4267 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1700 4176 50  0000 C CNN
-F 2 "" H 1650 3850 50  0001 C CNN
-F 3 "~" H 1650 3850 50  0001 C CNN
-	1    1650 3850
-	1    0    0    -1  
+F 0 "J15" H 1800 4367 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 4276 50  0000 C CNN
+F 2 "" H 1750 3950 50  0001 C CNN
+F 3 "~" H 1750 3950 50  0001 C CNN
+	1    1750 3950
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -1431,28 +1431,28 @@ EXPAND3_7
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5C856E33
-P 4200 1900
+P 4200 2000
 AR Path="/5B491809/5C856E33" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C856E33" Ref="J16"  Part="1" 
-F 0 "J16" H 4280 1892 50  0000 L CNN
-F 1 "Conn_01x02" H 4280 1801 50  0000 L CNN
-F 2 "" H 4200 1900 50  0001 C CNN
-F 3 "~" H 4200 1900 50  0001 C CNN
-	1    4200 1900
-	1    0    0    -1  
+F 0 "J16" H 4280 1992 50  0000 L CNN
+F 1 "Conn_01x02" H 4280 1901 50  0000 L CNN
+F 2 "" H 4200 2000 50  0001 C CNN
+F 3 "~" H 4200 2000 50  0001 C CNN
+	1    4200 2000
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5C856E3A
-P 4200 2200
+P 4200 2300
 AR Path="/5B491809/5C856E3A" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C856E3A" Ref="J17"  Part="1" 
-F 0 "J17" H 4280 2192 50  0000 L CNN
-F 1 "Conn_01x02" H 4280 2101 50  0000 L CNN
-F 2 "" H 4200 2200 50  0001 C CNN
-F 3 "~" H 4200 2200 50  0001 C CNN
-	1    4200 2200
-	1    0    0    -1  
+F 0 "J17" H 4280 2292 50  0000 L CNN
+F 1 "Conn_01x02" H 4280 2201 50  0000 L CNN
+F 2 "" H 4200 2300 50  0001 C CNN
+F 3 "~" H 4200 2300 50  0001 C CNN
+	1    4200 2300
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
