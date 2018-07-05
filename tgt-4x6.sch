@@ -525,4 +525,527 @@ Wire Wire Line
 	2400 8300 3300 8300
 Wire Wire Line
 	3300 8300 3300 8500
+$Comp
+L Connector_Specialized:Conn_Coaxial J?
+U 1 1 5C3086D2
+P 4400 2100
+F 0 "J?" H 4499 2076 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4499 1985 50  0000 L CNN
+F 2 "" H 4400 2100 50  0001 C CNN
+F 3 "" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Conn_Coaxial J?
+U 1 1 5C308916
+P 4400 2450
+F 0 "J?" H 4499 2426 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4499 2335 50  0000 L CNN
+F 2 "" H 4400 2450 50  0001 C CNN
+F 3 "" H 4400 2450 50  0001 C CNN
+	1    4400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C308AB8
+P 5050 2100
+F 0 "J?" H 5130 2142 50  0000 L CNN
+F 1 "Conn_01x03" H 5130 2051 50  0000 L CNN
+F 2 "" H 5050 2100 50  0001 C CNN
+F 3 "~" H 5050 2100 50  0001 C CNN
+	1    5050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5C308BA2
+P 5050 2450
+F 0 "J?" H 5130 2492 50  0000 L CNN
+F 1 "Conn_01x03" H 5130 2401 50  0000 L CNN
+F 2 "" H 5050 2450 50  0001 C CNN
+F 3 "~" H 5050 2450 50  0001 C CNN
+	1    5050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C309A44
+P 4600 2650
+F 0 "#PWR?" H 4600 2400 50  0001 C CNN
+F 1 "GND" H 4605 2477 50  0000 C CNN
+F 2 "" H 4600 2650 50  0001 C CNN
+F 3 "" H 4600 2650 50  0001 C CNN
+	1    4600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2650 4600 2650
+Wire Wire Line
+	4400 2300 4600 2300
+Wire Wire Line
+	4600 2300 4600 2350
+Connection ~ 4600 2650
+Wire Wire Line
+	4850 2550 4600 2550
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2550 4600 2650
+Wire Wire Line
+	4850 2350 4600 2350
+Connection ~ 4600 2350
+Wire Wire Line
+	4600 2350 4600 2550
+Wire Wire Line
+	4850 2000 4600 2000
+Wire Wire Line
+	4600 2000 4600 2200
+Connection ~ 4600 2300
+Wire Wire Line
+	4850 2200 4600 2200
+Connection ~ 4600 2200
+Wire Wire Line
+	4600 2200 4600 2300
+Wire Wire Line
+	4850 2100 4250 2100
+Wire Wire Line
+	4250 2100 2400 2100
+Connection ~ 4250 2100
+Wire Wire Line
+	2400 2300 4150 2300
+Wire Wire Line
+	4150 2300 4150 2450
+Wire Wire Line
+	4150 2450 4250 2450
+Wire Wire Line
+	4250 2450 4850 2450
+Connection ~ 4250 2450
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C315854
+P 4250 4400
+F 0 "J?" H 4330 4392 50  0000 L CNN
+F 1 "Conn_01x04" H 4330 4301 50  0000 L CNN
+F 2 "" H 4250 4400 50  0001 C CNN
+F 3 "~" H 4250 4400 50  0001 C CNN
+	1    4250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C3159EF
+P 3950 4200
+F 0 "#PWR?" H 3950 4050 50  0001 C CNN
+F 1 "+3.3V" H 3965 4373 50  0000 C CNN
+F 2 "" H 3950 4200 50  0001 C CNN
+F 3 "" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C315ACE
+P 3950 4700
+F 0 "#PWR?" H 3950 4450 50  0001 C CNN
+F 1 "GND" H 3955 4527 50  0000 C CNN
+F 2 "" H 3950 4700 50  0001 C CNN
+F 3 "" H 3950 4700 50  0001 C CNN
+	1    3950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4600 3950 4600
+Wire Wire Line
+	3950 4600 3950 4700
+Wire Wire Line
+	4050 4300 3950 4300
+Wire Wire Line
+	3950 4300 3950 4200
+Wire Wire Line
+	4050 4400 2400 4400
+Wire Wire Line
+	2400 4500 4050 4500
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J?
+U 1 1 5C36913C
+P 7700 3200
+F 0 "J?" H 7750 3617 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 7750 3526 50  0000 C CNN
+F 2 "" H 7700 3200 50  0001 C CNN
+F 3 "~" H 7700 3200 50  0001 C CNN
+	1    7700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J?
+U 1 1 5C3691F4
+P 7700 4100
+F 0 "J?" H 7750 4517 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 7750 4426 50  0000 C CNN
+F 2 "" H 7700 4100 50  0001 C CNN
+F 3 "~" H 7700 4100 50  0001 C CNN
+	1    7700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1800 3850 1800
+Wire Wire Line
+	2400 1900 3850 1900
+Wire Wire Line
+	2400 2000 3850 2000
+Wire Wire Line
+	2400 1400 3850 1400
+Wire Wire Line
+	2400 1500 3850 1500
+Wire Wire Line
+	2400 1600 3850 1600
+Wire Wire Line
+	2400 2600 3850 2600
+Wire Wire Line
+	2400 2700 3850 2700
+Wire Wire Line
+	2400 2800 3850 2800
+Wire Wire Line
+	2400 3000 3850 3000
+Wire Wire Line
+	2400 3100 3850 3100
+Wire Wire Line
+	2400 3200 3850 3200
+Wire Wire Line
+	2400 3500 3850 3500
+Wire Wire Line
+	2400 3600 3850 3600
+Wire Wire Line
+	2400 3700 3850 3700
+Wire Wire Line
+	2400 3900 3850 3900
+Wire Wire Line
+	2400 4000 3850 4000
+Wire Wire Line
+	2400 4200 3850 4200
+Wire Wire Line
+	2400 2400 3850 2400
+Wire Wire Line
+	2400 3300 3850 3300
+Wire Wire Line
+	2400 4300 3850 4300
+Text Label 3400 1400 0    50   ~ 0
+EXPAND0_0
+Text Label 3400 1500 0    50   ~ 0
+EXPAND0_1
+Text Label 3400 1600 0    50   ~ 0
+EXPAND0_2
+Text Label 3400 1800 0    50   ~ 0
+EXPAND0_3
+Text Label 3400 1900 0    50   ~ 0
+EXPAND0_4
+Text Label 3400 2000 0    50   ~ 0
+EXPAND0_5
+Text Label 3400 2400 0    50   ~ 0
+EXPAND0_6
+Text Label 3400 2600 0    50   ~ 0
+EXPAND0_7
+Text Label 3400 2700 0    50   ~ 0
+EXPAND1_0
+Text Label 3400 2800 0    50   ~ 0
+EXPAND1_1
+Text Label 3400 3000 0    50   ~ 0
+EXPAND1_2
+Text Label 3400 3100 0    50   ~ 0
+EXPAND1_3
+Text Label 3400 3200 0    50   ~ 0
+EXPAND1_4
+Text Label 3400 3300 0    50   ~ 0
+EXPAND1_5
+Text Label 3400 3500 0    50   ~ 0
+EXPAND1_6
+Text Label 3400 3600 0    50   ~ 0
+EXPAND1_7
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J?
+U 1 1 5C399687
+P 7700 5000
+F 0 "J?" H 7750 5417 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 7750 5326 50  0000 C CNN
+F 2 "" H 7700 5000 50  0001 C CNN
+F 3 "~" H 7700 5000 50  0001 C CNN
+	1    7700 5000
+	1    0    0    -1  
+$EndComp
+Text Label 3400 3700 0    50   ~ 0
+EXPAND2_0
+Text Label 3400 3900 0    50   ~ 0
+EXPAND2_1
+Text Label 3400 4000 0    50   ~ 0
+EXPAND2_2
+Text Label 3400 4200 0    50   ~ 0
+EXPAND2_3
+Text Label 3400 4300 0    50   ~ 0
+EXPAND2_4
+Text Label 3400 4700 0    50   ~ 0
+EXPAND2_5
+Text Label 3400 4800 0    50   ~ 0
+EXPAND2_6
+Text Label 3400 7900 0    50   ~ 0
+EXPAND2_7
+Wire Wire Line
+	2400 4700 3850 4700
+Wire Wire Line
+	2400 4800 3850 4800
+Wire Wire Line
+	2400 7900 3850 7900
+$Comp
+L power:GND #PWR?
+U 1 1 5C3A1922
+P 8100 6200
+F 0 "#PWR?" H 8100 5950 50  0001 C CNN
+F 1 "GND" H 8105 6027 50  0000 C CNN
+F 2 "" H 8100 6200 50  0001 C CNN
+F 3 "" H 8100 6200 50  0001 C CNN
+	1    8100 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5200 7450 5200
+Wire Wire Line
+	7450 5200 7450 5150
+Wire Wire Line
+	7450 5150 8100 5150
+Wire Wire Line
+	8100 5150 8100 5200
+Wire Wire Line
+	8000 5200 8100 5200
+Connection ~ 8100 5200
+Wire Wire Line
+	8100 5200 8100 6000
+Wire Wire Line
+	8000 4300 8100 4300
+Wire Wire Line
+	8100 4300 8100 5150
+Connection ~ 8100 5150
+Wire Wire Line
+	8000 3400 8100 3400
+Wire Wire Line
+	8100 3400 8100 4250
+Connection ~ 8100 4300
+Wire Wire Line
+	7500 4300 7450 4300
+Wire Wire Line
+	7450 4300 7450 4250
+Wire Wire Line
+	7450 4250 8100 4250
+Connection ~ 8100 4250
+Wire Wire Line
+	8100 4250 8100 4300
+Wire Wire Line
+	7500 3400 7450 3400
+Wire Wire Line
+	7450 3400 7450 3350
+Wire Wire Line
+	7450 3350 8100 3350
+Wire Wire Line
+	8100 3350 8100 3400
+Connection ~ 8100 3400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C3B95E4
+P 8200 2900
+F 0 "#PWR?" H 8200 2750 50  0001 C CNN
+F 1 "+3.3V" H 8215 3073 50  0000 C CNN
+F 2 "" H 8200 2900 50  0001 C CNN
+F 3 "" H 8200 2900 50  0001 C CNN
+	1    8200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2900 8200 3450
+Wire Wire Line
+	8200 3500 8000 3500
+Wire Wire Line
+	8200 3500 8200 4350
+Wire Wire Line
+	8200 5300 8000 5300
+Connection ~ 8200 3500
+Wire Wire Line
+	8000 4400 8200 4400
+Connection ~ 8200 4400
+Wire Wire Line
+	8200 4400 8200 5250
+Wire Wire Line
+	7500 5300 7450 5300
+Wire Wire Line
+	7450 5300 7450 5250
+Wire Wire Line
+	7450 5250 8200 5250
+Connection ~ 8200 5250
+Wire Wire Line
+	8200 5250 8200 5300
+Wire Wire Line
+	7500 4400 7450 4400
+Wire Wire Line
+	7450 4400 7450 4350
+Wire Wire Line
+	7450 4350 8200 4350
+Connection ~ 8200 4350
+Wire Wire Line
+	8200 4350 8200 4400
+Wire Wire Line
+	7500 3500 7450 3500
+Wire Wire Line
+	7450 3500 7450 3450
+Wire Wire Line
+	7450 3450 8200 3450
+Connection ~ 8200 3450
+Wire Wire Line
+	8200 3450 8200 3500
+Wire Wire Line
+	6900 3000 7500 3000
+Wire Wire Line
+	6900 3100 7500 3100
+Wire Wire Line
+	6900 3200 7500 3200
+Wire Wire Line
+	6900 3300 7500 3300
+Text Label 6950 3000 0    50   ~ 0
+EXPAND0_0
+Text Label 6950 3100 0    50   ~ 0
+EXPAND0_1
+Text Label 6950 3200 0    50   ~ 0
+EXPAND0_2
+Text Label 6950 3300 0    50   ~ 0
+EXPAND0_3
+Text Label 8450 3000 0    50   ~ 0
+EXPAND0_4
+Text Label 8450 3100 0    50   ~ 0
+EXPAND0_5
+Text Label 8450 3200 0    50   ~ 0
+EXPAND0_6
+Text Label 8450 3300 0    50   ~ 0
+EXPAND0_7
+Wire Wire Line
+	8000 3000 8950 3000
+Wire Wire Line
+	8000 3100 8950 3100
+Wire Wire Line
+	8000 3200 8950 3200
+Wire Wire Line
+	8000 3300 8950 3300
+Wire Wire Line
+	6900 3900 7500 3900
+Wire Wire Line
+	6900 4000 7500 4000
+Wire Wire Line
+	6900 4100 7500 4100
+Wire Wire Line
+	6900 4200 7500 4200
+Text Label 6950 3900 0    50   ~ 0
+EXPAND1_0
+Text Label 6950 4000 0    50   ~ 0
+EXPAND1_1
+Text Label 6950 4100 0    50   ~ 0
+EXPAND1_2
+Text Label 6950 4200 0    50   ~ 0
+EXPAND1_3
+Wire Wire Line
+	6900 4800 7500 4800
+Wire Wire Line
+	6900 4900 7500 4900
+Wire Wire Line
+	6900 5000 7500 5000
+Wire Wire Line
+	6900 5100 7500 5100
+Text Label 6950 4800 0    50   ~ 0
+EXPAND2_0
+Text Label 6950 4900 0    50   ~ 0
+EXPAND2_1
+Text Label 6950 5000 0    50   ~ 0
+EXPAND2_2
+Text Label 6950 5100 0    50   ~ 0
+EXPAND2_3
+Text Label 8450 3900 0    50   ~ 0
+EXPAND1_4
+Text Label 8450 4000 0    50   ~ 0
+EXPAND1_5
+Text Label 8450 4100 0    50   ~ 0
+EXPAND1_6
+Text Label 8450 4200 0    50   ~ 0
+EXPAND1_7
+Wire Wire Line
+	8000 3900 8950 3900
+Wire Wire Line
+	8000 4000 8950 4000
+Wire Wire Line
+	8000 4100 8950 4100
+Wire Wire Line
+	8000 4200 8950 4200
+Text Label 8450 4800 0    50   ~ 0
+EXPAND2_4
+Text Label 8450 4900 0    50   ~ 0
+EXPAND2_5
+Text Label 8450 5000 0    50   ~ 0
+EXPAND2_6
+Text Label 8450 5100 0    50   ~ 0
+EXPAND2_7
+Wire Wire Line
+	8000 4800 8950 4800
+Wire Wire Line
+	8000 4900 8950 4900
+Wire Wire Line
+	8000 5000 8950 5000
+Wire Wire Line
+	8000 5100 8950 5100
+Wire Wire Line
+	2400 7300 3850 7300
+Wire Wire Line
+	3850 7400 2400 7400
+Wire Wire Line
+	2400 7500 3850 7500
+Wire Wire Line
+	2400 7600 3850 7600
+Text Label 3400 7300 0    50   ~ 0
+EXPAND3_0
+Text Label 3400 7400 0    50   ~ 0
+EXPAND3_1
+Text Label 3400 7500 0    50   ~ 0
+EXPAND3_2
+Text Label 3400 7600 0    50   ~ 0
+EXPAND3_3
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5C44E6BA
+P 7800 5800
+F 0 "J?" H 7720 6217 50  0000 C CNN
+F 1 "Conn_01x06" H 7720 6126 50  0000 C CNN
+F 2 "" H 7800 5800 50  0001 C CNN
+F 3 "~" H 7800 5800 50  0001 C CNN
+	1    7800 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 6000 8100 6000
+Connection ~ 8100 6000
+Wire Wire Line
+	8100 6000 8100 6200
+Wire Wire Line
+	8000 6100 8200 6100
+Wire Wire Line
+	8200 6100 8200 5300
+Connection ~ 8200 5300
+Wire Wire Line
+	8000 5600 8950 5600
+Wire Wire Line
+	8950 5700 8000 5700
+Wire Wire Line
+	8000 5800 8950 5800
+Wire Wire Line
+	8950 5900 8000 5900
+Text Label 8450 5600 0    50   ~ 0
+EXPAND3_0
+Text Label 8450 5700 0    50   ~ 0
+EXPAND3_1
+Text Label 8450 5800 0    50   ~ 0
+EXPAND3_2
+Text Label 8450 5900 0    50   ~ 0
+EXPAND3_3
 $EndSCHEMATC
