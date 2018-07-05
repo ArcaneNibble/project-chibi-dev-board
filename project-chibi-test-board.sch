@@ -540,4 +540,48 @@ Connection ~ 1000 1800
 Wire Wire Line
 	750  1000 1000 1000
 Connection ~ 1000 1000
+$Comp
+L Mechanical:Mounting_Hole MK4
+U 1 1 5B4F41FB
+P 650 7600
+F 0 "MK4" H 750 7646 50  0000 L CNN
+F 1 "Mounting_Hole" H 750 7555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 650 7600 50  0001 C CNN
+F 3 "" H 650 7600 50  0001 C CNN
+	1    650  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK3
+U 1 1 5B4F4313
+P 650 7400
+F 0 "MK3" H 750 7446 50  0000 L CNN
+F 1 "Mounting_Hole" H 750 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 650 7400 50  0001 C CNN
+F 3 "" H 650 7400 50  0001 C CNN
+	1    650  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK2
+U 1 1 5B4F436D
+P 650 7200
+F 0 "MK2" H 750 7246 50  0000 L CNN
+F 1 "Mounting_Hole" H 750 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 650 7200 50  0001 C CNN
+F 3 "" H 650 7200 50  0001 C CNN
+	1    650  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK1
+U 1 1 5B4F4393
+P 650 7000
+F 0 "MK1" H 750 7046 50  0000 L CNN
+F 1 "Mounting_Hole" H 750 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 650 7000 50  0001 C CNN
+F 3 "" H 650 7000 50  0001 C CNN
+	1    650  7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
