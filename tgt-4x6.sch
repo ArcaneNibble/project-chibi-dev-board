@@ -54,17 +54,6 @@ Text HLabel 2400 10700 2    50   Input ~ 0
 ACBUS6
 $Comp
 L project-chibi:5M40_80_160ZE64x U3
-U 1 1 5C257DCF
-P 1500 3100
-F 0 "U3" H 1000 5050 50  0000 R CNN
-F 1 "5M40ZE64C5N" H 1350 1250 50  0000 R CNN
-F 2 "rqou:TQFP-64-1EP_7x7mm_P0.4mm_EP4.5x4.5mm" H 1950 4600 50  0001 C CNN
-F 3 "" H 1950 4600 50  0001 C CNN
-	1    1500 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L project-chibi:5M40_80_160ZE64x U3
 U 2 1 5C257EBC
 P 1500 9000
 F 0 "U3" H 1000 10950 50  0000 R CNN
@@ -83,28 +72,6 @@ F 1 "5M40ZE64C5N" H 14850 8150 50  0000 L CNN
 F 2 "rqou:TQFP-64-1EP_7x7mm_P0.4mm_EP4.5x4.5mm" H 15050 10100 50  0001 C CNN
 F 3 "" H 15050 10100 50  0001 C CNN
 	3    14600 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5C2591B6
-P 1700 1000
-F 0 "C4" H 1792 1046 50  0000 L CNN
-F 1 "0.1 uF" H 1792 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1700 1000 50  0001 C CNN
-F 3 "~" H 1700 1000 50  0001 C CNN
-	1    1700 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 5C2591FE
-P 2100 1000
-F 0 "C6" H 2192 1046 50  0000 L CNN
-F 1 "0.1 uF" H 2192 955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2100 1000 50  0001 C CNN
-F 3 "~" H 2100 1000 50  0001 C CNN
-	1    2100 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -152,49 +119,16 @@ F 3 "" H 2900 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 900  2100 900 
-Wire Wire Line
 	2900 900  2900 800 
 Connection ~ 2900 900 
-Connection ~ 2100 900 
-Wire Wire Line
-	2100 900  2500 900 
 Connection ~ 2500 900 
 Wire Wire Line
 	2500 900  2900 900 
 Wire Wire Line
-	1700 1100 2100 1100
-Wire Wire Line
 	2900 1100 2900 1200
 Connection ~ 2900 1100
-Connection ~ 2100 1100
-Wire Wire Line
-	2100 1100 2500 1100
-Connection ~ 2500 1100
 Wire Wire Line
 	2500 1100 2900 1100
-$Comp
-L Device:C_Small C3
-U 1 1 5C259563
-P 1600 6900
-F 0 "C3" H 1692 6946 50  0000 L CNN
-F 1 "0.1 uF" H 1692 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1600 6900 50  0001 C CNN
-F 3 "~" H 1600 6900 50  0001 C CNN
-	1    1600 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5C25956A
-P 2000 6900
-F 0 "C5" H 2092 6946 50  0000 L CNN
-F 1 "0.1 uF" H 2092 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2000 6900 50  0001 C CNN
-F 3 "~" H 2000 6900 50  0001 C CNN
-	1    2000 6900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C7
 U 1 1 5C259571
@@ -240,49 +174,16 @@ F 3 "" H 2800 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 6800 2000 6800
-Wire Wire Line
 	2800 6800 2800 6700
 Connection ~ 2800 6800
-Connection ~ 2000 6800
-Wire Wire Line
-	2000 6800 2400 6800
 Connection ~ 2400 6800
 Wire Wire Line
 	2400 6800 2800 6800
 Wire Wire Line
-	1600 7000 2000 7000
-Wire Wire Line
 	2800 7000 2800 7100
 Connection ~ 2800 7000
-Connection ~ 2000 7000
-Wire Wire Line
-	2000 7000 2400 7000
-Connection ~ 2400 7000
 Wire Wire Line
 	2400 7000 2800 7000
-$Comp
-L Device:C_Small C14
-U 1 1 5C259709
-P 13900 8000
-F 0 "C14" H 13808 8046 50  0000 R CNN
-F 1 "0.1 uF" H 13808 7955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 13900 8000 50  0001 C CNN
-F 3 "~" H 13900 8000 50  0001 C CNN
-	1    13900 8000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C13
-U 1 1 5C259710
-P 13500 8000
-F 0 "C13" H 13408 8046 50  0000 R CNN
-F 1 "0.1 uF" H 13408 7955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 13500 8000 50  0001 C CNN
-F 3 "~" H 13500 8000 50  0001 C CNN
-	1    13500 8000
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C12
 U 1 1 5C259717
@@ -317,25 +218,14 @@ F 3 "" H 12700 8200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	13900 7900 13500 7900
-Wire Wire Line
 	12700 7900 12700 7800
 Connection ~ 12700 7900
-Connection ~ 13500 7900
-Wire Wire Line
-	13500 7900 13100 7900
 Connection ~ 13100 7900
 Wire Wire Line
 	13100 7900 12700 7900
 Wire Wire Line
-	13900 8100 13500 8100
-Wire Wire Line
 	12700 8100 12700 8200
 Connection ~ 12700 8100
-Connection ~ 13500 8100
-Wire Wire Line
-	13500 8100 13100 8100
-Connection ~ 13100 8100
 Wire Wire Line
 	13100 8100 12700 8100
 $Comp
@@ -349,9 +239,6 @@ F 3 "" H 12700 7800 50  0001 C CNN
 	1    12700 7800
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	13900 7900 14600 7900
-Connection ~ 13900 7900
 $Comp
 L power:GND #PWR019
 U 1 1 5C25D5A8
@@ -364,15 +251,9 @@ F 3 "" H 14600 9300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 900  1500 900 
-Wire Wire Line
 	1500 900  1500 1000
-Connection ~ 1700 900 
-Wire Wire Line
-	1600 6800 1500 6800
 Wire Wire Line
 	1500 6800 1500 6900
-Connection ~ 1600 6800
 Text HLabel 2400 8200 2    50   Input ~ 0
 CLK_40MHZ
 Text HLabel 2400 8000 2    50   Input ~ 0
@@ -1177,4 +1058,21 @@ Wire Wire Line
 Connection ~ 4200 2450
 Wire Wire Line
 	4200 2450 4850 2450
+$Comp
+L project-chibi:5M40_80_160ZE64x U3
+U 1 1 5C257DCF
+P 1500 3100
+F 0 "U3" H 1000 5050 50  0000 R CNN
+F 1 "5M40ZE64C5N" H 1350 1250 50  0000 R CNN
+F 2 "rqou:TQFP-64-1EP_7x7mm_P0.4mm_EP4.5x4.5mm" H 1950 4600 50  0001 C CNN
+F 3 "" H 1950 4600 50  0001 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 900  2500 900 
+Wire Wire Line
+	1500 6800 2400 6800
+Wire Wire Line
+	13100 7900 14600 7900
 $EndSCHEMATC
