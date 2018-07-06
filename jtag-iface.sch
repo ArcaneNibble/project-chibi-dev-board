@@ -82,17 +82,6 @@ F 3 "" H 10450 8200 50  0001 C CNN
 $EndComp
 $Comp
 L project-chibi:5M240_570ZT144x U6
-U 2 1 5B496D3D
-P 12300 5700
-F 0 "U6" H 11800 9650 50  0000 R CNN
-F 1 "5M240ZT144C5N" H 12200 9550 50  0000 R CNN
-F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 12950 8500 50  0001 C CNN
-F 3 "" H 12950 8500 50  0001 C CNN
-	2    12300 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L project-chibi:5M240_570ZT144x U6
 U 3 1 5B496DDA
 P 2800 9700
 F 0 "U6" H 2500 10250 50  0000 L CNN
@@ -1337,57 +1326,27 @@ Wire Wire Line
 	10100 1200 9800 1200
 Connection ~ 10100 1200
 Wire Wire Line
-	5000 2300 6700 2300
-Wire Wire Line
-	6700 2300 6700 1900
-Wire Wire Line
-	6700 1900 8800 1900
+	5000 2300 5550 2300
 Wire Wire Line
 	9800 1200 9800 1600
 Wire Wire Line
 	12300 1200 12300 1600
 Wire Wire Line
-	5000 2400 6800 2400
+	5000 2400 5650 2400
 Wire Wire Line
-	6800 2400 6800 2000
+	5000 2600 5850 2600
 Wire Wire Line
-	6800 2000 8800 2000
+	5000 2700 5950 2700
 Wire Wire Line
-	8800 2100 6900 2100
+	7950 2400 8800 2400
 Wire Wire Line
-	6900 2100 6900 2500
+	8800 2500 7950 2500
 Wire Wire Line
-	6900 2500 5000 2500
+	5000 2900 6150 2900
 Wire Wire Line
-	5000 2600 7000 2600
+	7950 2600 8800 2600
 Wire Wire Line
-	7000 2600 7000 2200
-Wire Wire Line
-	7000 2200 8800 2200
-Wire Wire Line
-	5000 2700 7100 2700
-Wire Wire Line
-	7100 2700 7100 2400
-Wire Wire Line
-	7100 2400 8800 2400
-Wire Wire Line
-	8800 2500 7200 2500
-Wire Wire Line
-	7200 2500 7200 2800
-Wire Wire Line
-	7200 2800 5000 2800
-Wire Wire Line
-	5000 2900 7300 2900
-Wire Wire Line
-	7300 2900 7300 2600
-Wire Wire Line
-	7300 2600 8800 2600
-Wire Wire Line
-	8800 2700 7400 2700
-Wire Wire Line
-	7400 2700 7400 3000
-Wire Wire Line
-	7400 3000 5000 3000
+	8800 2700 7950 2700
 $Comp
 L power:+5V #PWR064
 U 1 1 5B77E7CD
@@ -1413,439 +1372,279 @@ $EndComp
 Wire Wire Line
 	5100 3900 5000 3900
 Wire Wire Line
-	7500 3200 7500 2800
+	7950 2800 8800 2800
 Wire Wire Line
-	7500 2800 8800 2800
+	8800 2900 7950 2900
 Wire Wire Line
-	5000 3200 7500 3200
+	5000 3400 5500 3400
 Wire Wire Line
-	8800 2900 7600 2900
+	5000 3500 5500 3500
 Wire Wire Line
-	7600 2900 7600 3300
+	5000 3600 5500 3600
 Wire Wire Line
-	5000 3300 7600 3300
-Wire Wire Line
-	7700 3400 7700 3300
-Wire Wire Line
-	7700 3300 8800 3300
-Wire Wire Line
-	5000 3400 7700 3400
-Wire Wire Line
-	7800 3500 7800 3400
-Wire Wire Line
-	7800 3400 8800 3400
-Wire Wire Line
-	5000 3500 7800 3500
-Wire Wire Line
-	7900 3600 7900 3500
-Wire Wire Line
-	7900 3500 8800 3500
-Wire Wire Line
-	5000 3600 7900 3600
-Wire Wire Line
-	8000 3700 8000 3600
-Wire Wire Line
-	8000 3600 8800 3600
-Wire Wire Line
-	5000 3700 8000 3700
-Wire Wire Line
-	5000 3800 8800 3800
+	5000 3700 5500 3700
 Wire Wire Line
 	5100 1200 5100 3900
-Text HLabel 13800 1900 2    50   Input ~ 0
+Text HLabel 8800 1900 0    50   Input ~ 0
 TGT0_JTAG_TDI
-Text HLabel 13800 2000 2    50   Input ~ 0
+Text HLabel 8800 2000 0    50   Input ~ 0
 TGT0_JTAG_TDO
-Text HLabel 13800 2100 2    50   Input ~ 0
+Text HLabel 8800 2100 0    50   Input ~ 0
 TGT0_JTAG_TMS
-Text HLabel 13800 2300 2    50   Input ~ 0
+Text HLabel 8800 2200 0    50   Input ~ 0
 TGT0_JTAG_TCK
-Text HLabel 13800 2400 2    50   Input ~ 0
+Text HLabel 8800 5400 0    50   Input ~ 0
 TGT1_JTAG_TDI
-Text HLabel 13800 2500 2    50   Input ~ 0
+Text HLabel 8800 5500 0    50   Input ~ 0
 TGT1_JTAG_TDO
-Text HLabel 13800 2700 2    50   Input ~ 0
+Text HLabel 8800 5700 0    50   Input ~ 0
 TGT1_JTAG_TMS
-Text HLabel 13800 2800 2    50   Input ~ 0
+Text HLabel 8800 5800 0    50   Input ~ 0
 TGT1_JTAG_TCK
-Text HLabel 13800 2900 2    50   Input ~ 0
+Text HLabel 13200 4900 2    50   Input ~ 0
 TGT2_JTAG_TDI
-Text HLabel 13800 3000 2    50   Input ~ 0
+Text HLabel 13200 5100 2    50   Input ~ 0
 TGT2_JTAG_TDO
-Text HLabel 13800 3100 2    50   Input ~ 0
+Text HLabel 13200 5200 2    50   Input ~ 0
 TGT2_JTAG_TMS
-Text HLabel 13800 3300 2    50   Input ~ 0
+Text HLabel 13200 4800 2    50   Input ~ 0
 TGT2_JTAG_TCK
-Text HLabel 13800 3400 2    50   Input ~ 0
-TGT3_JTAG_TDI
-Text HLabel 13800 3500 2    50   Input ~ 0
-TGT3_JTAG_TDO
-Text HLabel 13800 3800 2    50   Input ~ 0
-TGT3_JTAG_TMS
-Text HLabel 13800 4000 2    50   Input ~ 0
-TGT3_JTAG_TCK
-Text HLabel 13800 4100 2    50   Input ~ 0
-TGT0_ADBUS0
-Text HLabel 13800 4200 2    50   Input ~ 0
-TGT0_ADBUS1
-Text HLabel 13800 4300 2    50   Input ~ 0
-TGT0_ADBUS2
-Text HLabel 13800 4400 2    50   Input ~ 0
-TGT0_ADBUS3
-Text HLabel 13800 4600 2    50   Input ~ 0
-TGT0_ADBUS4
-Text HLabel 13800 4700 2    50   Input ~ 0
-TGT0_ADBUS5
-Text HLabel 13800 4800 2    50   Input ~ 0
-TGT0_ADBUS6
-Text HLabel 13800 4900 2    50   Input ~ 0
-TGT0_ADBUS7
-Text HLabel 13800 5100 2    50   Input ~ 0
-TGT1_ADBUS0
-Text HLabel 13800 5200 2    50   Input ~ 0
-TGT1_ADBUS1
-Text HLabel 13800 5300 2    50   Input ~ 0
-TGT1_ADBUS2
-Text HLabel 13800 5400 2    50   Input ~ 0
-TGT1_ADBUS3
-Text HLabel 13800 5600 2    50   Input ~ 0
-TGT1_ADBUS4
-Text HLabel 13800 5800 2    50   Input ~ 0
-TGT1_ADBUS5
-Text HLabel 13800 5900 2    50   Input ~ 0
-TGT1_ADBUS6
-Text HLabel 13800 6100 2    50   Input ~ 0
-TGT1_ADBUS7
-Text HLabel 13800 6200 2    50   Input ~ 0
-TGT2_ADBUS0
-Text HLabel 13800 6400 2    50   Input ~ 0
-TGT2_ADBUS1
-Text HLabel 13800 6500 2    50   Input ~ 0
-TGT2_ADBUS2
-Text HLabel 13800 6700 2    50   Input ~ 0
-TGT2_ADBUS3
-Text HLabel 13800 6800 2    50   Input ~ 0
-TGT2_ADBUS4
-Text HLabel 13800 6900 2    50   Input ~ 0
-TGT2_ADBUS5
-Text HLabel 13800 7000 2    50   Input ~ 0
-TGT2_ADBUS6
 Text HLabel 13800 7200 2    50   Input ~ 0
-TGT2_ADBUS7
-Text HLabel 13800 7300 2    50   Input ~ 0
-TGT3_ADBUS0
-Text HLabel 13800 7400 2    50   Input ~ 0
-TGT3_ADBUS1
-Text HLabel 13800 7500 2    50   Input ~ 0
-TGT3_ADBUS2
-Text HLabel 13800 7700 2    50   Input ~ 0
-TGT3_ADBUS3
-Text HLabel 13800 7800 2    50   Input ~ 0
-TGT3_ADBUS4
-Text HLabel 13800 7900 2    50   Input ~ 0
-TGT3_ADBUS5
+TGT3_JTAG_TDI
 Text HLabel 13800 8000 2    50   Input ~ 0
-TGT3_ADBUS6
-Text HLabel 13800 8200 2    50   Input ~ 0
-TGT3_ADBUS7
-Text HLabel 13800 8300 2    50   Input ~ 0
-TGT0_ACBUS0
-Text HLabel 13800 8400 2    50   Input ~ 0
-TGT0_ACBUS1
-Text HLabel 13800 8600 2    50   Input ~ 0
-TGT0_ACBUS2
-Text HLabel 13800 8700 2    50   Input ~ 0
-TGT0_ACBUS3
+TGT3_JTAG_TDO
 Text HLabel 13800 8900 2    50   Input ~ 0
-TGT0_ACBUS4
+TGT3_JTAG_TMS
 Text HLabel 13800 9000 2    50   Input ~ 0
+TGT3_JTAG_TCK
+Text HLabel 13800 5600 2    50   Input ~ 0
+TGT0_ADBUS0
+Text HLabel 13800 6500 2    50   Input ~ 0
+TGT0_ADBUS1
+Text HLabel 13800 5800 2    50   Input ~ 0
+TGT0_ADBUS2
+Text HLabel 13800 5900 2    50   Input ~ 0
+TGT0_ADBUS3
+Text HLabel 13800 6100 2    50   Input ~ 0
+TGT0_ADBUS4
+Text HLabel 13800 6200 2    50   Input ~ 0
+TGT0_ADBUS5
+Text HLabel 13800 6700 2    50   Input ~ 0
+TGT0_ADBUS6
+Text HLabel 13800 6400 2    50   Input ~ 0
+TGT0_ADBUS7
+Text HLabel 8800 5900 0    50   Input ~ 0
+TGT1_ADBUS0
+Text HLabel 8800 6100 0    50   Input ~ 0
+TGT1_ADBUS1
+Text HLabel 8800 6200 0    50   Input ~ 0
+TGT1_ADBUS2
+Text HLabel 8800 6300 0    50   Input ~ 0
+TGT1_ADBUS3
+Text HLabel 8800 5000 0    50   Input ~ 0
+TGT1_ADBUS4
+Text HLabel 8800 4100 0    50   Input ~ 0
+TGT1_ADBUS5
+Text HLabel 8800 4700 0    50   Input ~ 0
+TGT1_ADBUS6
+Text HLabel 8800 4800 0    50   Input ~ 0
+TGT1_ADBUS7
+Text HLabel 8800 8500 0    50   Input ~ 0
+TGT2_ADBUS0
+Text HLabel 13200 4600 2    50   Input ~ 0
+TGT2_ADBUS1
+Text HLabel 13200 4700 2    50   Input ~ 0
+TGT2_ADBUS2
+Text HLabel 8800 7500 0    50   Input ~ 0
+TGT2_ADBUS3
+Text HLabel 8800 7600 0    50   Input ~ 0
+TGT2_ADBUS4
+Text HLabel 8800 7700 0    50   Input ~ 0
+TGT2_ADBUS5
+Text HLabel 8800 7800 0    50   Input ~ 0
+TGT2_ADBUS6
+Text HLabel 8800 8000 0    50   Input ~ 0
+TGT2_ADBUS7
+Text HLabel 13800 7700 2    50   Input ~ 0
+TGT3_ADBUS0
+Text HLabel 13800 7800 2    50   Input ~ 0
+TGT3_ADBUS1
+Text HLabel 13800 7900 2    50   Input ~ 0
+TGT3_ADBUS2
+Text HLabel 13800 8200 2    50   Input ~ 0
+TGT3_ADBUS3
+Text HLabel 13800 8300 2    50   Input ~ 0
+TGT3_ADBUS4
+Text HLabel 13800 8400 2    50   Input ~ 0
+TGT3_ADBUS5
+Text HLabel 13800 8600 2    50   Input ~ 0
+TGT3_ADBUS6
+Text HLabel 13800 8700 2    50   Input ~ 0
+TGT3_ADBUS7
+Text HLabel 13800 6800 2    50   Input ~ 0
+TGT0_ACBUS0
+Text HLabel 13800 6900 2    50   Input ~ 0
+TGT0_ACBUS1
+Text HLabel 13800 7000 2    50   Input ~ 0
+TGT0_ACBUS2
+Text HLabel 13800 7400 2    50   Input ~ 0
+TGT0_ACBUS3
+Text HLabel 8800 4300 0    50   Input ~ 0
+TGT0_ACBUS4
+Text HLabel 8800 4400 0    50   Input ~ 0
 TGT0_ACBUS5
-Text HLabel 13800 9200 2    50   Input ~ 0
+Text HLabel 8800 4500 0    50   Input ~ 0
 TGT0_ACBUS6
-Text HLabel 8500 4700 0    50   Input ~ 0
+Text HLabel 8800 6500 0    50   Input ~ 0
 TGT1_ACBUS0
-Text HLabel 8500 4800 0    50   Input ~ 0
+Text HLabel 8800 7300 0    50   Input ~ 0
 TGT1_ACBUS1
-Text HLabel 8500 5000 0    50   Input ~ 0
+Text HLabel 8800 6600 0    50   Input ~ 0
 TGT1_ACBUS2
-Text HLabel 8500 5100 0    50   Input ~ 0
+Text HLabel 8800 6700 0    50   Input ~ 0
 TGT1_ACBUS3
-Text HLabel 8500 5200 0    50   Input ~ 0
+Text HLabel 8800 6800 0    50   Input ~ 0
 TGT1_ACBUS4
-Text HLabel 8500 5400 0    50   Input ~ 0
+Text HLabel 8800 5100 0    50   Input ~ 0
 TGT1_ACBUS5
-Text HLabel 8500 5500 0    50   Input ~ 0
+Text HLabel 8800 5200 0    50   Input ~ 0
 TGT1_ACBUS6
-Text HLabel 8500 5700 0    50   Input ~ 0
+Text HLabel 13200 5300 2    50   Input ~ 0
 TGT2_ACBUS0
-Text HLabel 8500 5800 0    50   Input ~ 0
+Text HLabel 13200 5400 2    50   Input ~ 0
 TGT2_ACBUS1
-Text HLabel 8500 5900 0    50   Input ~ 0
+Text HLabel 8800 8700 0    50   Input ~ 0
 TGT2_ACBUS2
-Text HLabel 8500 6100 0    50   Input ~ 0
+Text HLabel 8800 8800 0    50   Input ~ 0
 TGT2_ACBUS3
-Text HLabel 8500 6200 0    50   Input ~ 0
+Text HLabel 8800 8100 0    50   Input ~ 0
 TGT2_ACBUS4
-Text HLabel 8500 6300 0    50   Input ~ 0
+Text HLabel 8800 8200 0    50   Input ~ 0
 TGT2_ACBUS5
-Text HLabel 8500 6500 0    50   Input ~ 0
+Text HLabel 8800 8400 0    50   Input ~ 0
 TGT2_ACBUS6
-Text HLabel 8500 6600 0    50   Input ~ 0
+Text HLabel 13800 9200 2    50   Input ~ 0
 TGT3_ACBUS0
-Text HLabel 8500 6700 0    50   Input ~ 0
+Text HLabel 13800 9300 2    50   Input ~ 0
 TGT3_ACBUS1
-Text HLabel 8500 6800 0    50   Input ~ 0
+Text HLabel 13800 9400 2    50   Input ~ 0
 TGT3_ACBUS2
-Text HLabel 8500 7000 0    50   Input ~ 0
+Text HLabel 13800 1900 2    50   Input ~ 0
 TGT3_ACBUS3
-Text HLabel 8500 7100 0    50   Input ~ 0
+Text HLabel 13800 2000 2    50   Input ~ 0
 TGT3_ACBUS4
-Text HLabel 8500 7200 0    50   Input ~ 0
+Text HLabel 13800 7300 2    50   Input ~ 0
 TGT3_ACBUS5
-Text HLabel 8500 7300 0    50   Input ~ 0
+Text HLabel 13800 7500 2    50   Input ~ 0
 TGT3_ACBUS6
 $Comp
 L Switch:SW_DIP_x08 SW1
 U 1 1 5BA01AE8
-P 5800 7000
-F 0 "SW1" H 5800 7667 50  0000 C CNN
-F 1 "SW_DIP_x08" H 5800 7576 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm" H 5800 7000 50  0001 C CNN
-F 3 "" H 5800 7000 50  0001 C CNN
-	1    5800 7000
-	1    0    0    -1  
+P 15400 3800
+F 0 "SW1" H 15400 4467 50  0000 C CNN
+F 1 "SW_DIP_x08" H 15400 4376 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm" H 15400 3800 50  0001 C CNN
+F 3 "" H 15400 3800 50  0001 C CNN
+	1    15400 3800
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_DIP_x08 SW2
 U 1 1 5BA01D31
-P 5800 8100
-F 0 "SW2" H 5800 8767 50  0000 C CNN
-F 1 "SW_DIP_x08" H 5800 8676 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm" H 5800 8100 50  0001 C CNN
-F 3 "" H 5800 8100 50  0001 C CNN
-	1    5800 8100
-	1    0    0    -1  
+P 15400 4900
+F 0 "SW2" H 15400 5567 50  0000 C CNN
+F 1 "SW_DIP_x08" H 15400 5476 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm" H 15400 4900 50  0001 C CNN
+F 3 "" H 15400 4900 50  0001 C CNN
+	1    15400 4900
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR065
 U 1 1 5BA0202C
-P 5400 8500
-F 0 "#PWR065" H 5400 8250 50  0001 C CNN
-F 1 "GND" H 5405 8327 50  0000 C CNN
-F 2 "" H 5400 8500 50  0001 C CNN
-F 3 "" H 5400 8500 50  0001 C CNN
-	1    5400 8500
-	1    0    0    -1  
+P 15800 5500
+F 0 "#PWR065" H 15800 5250 50  0001 C CNN
+F 1 "GND" H 15805 5327 50  0000 C CNN
+F 2 "" H 15800 5500 50  0001 C CNN
+F 3 "" H 15800 5500 50  0001 C CNN
+	1    15800 5500
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 8400 5400 8400
+	15700 5300 15800 5300
 Wire Wire Line
-	5400 8400 5400 8500
+	15800 5300 15800 5500
+Connection ~ 15800 5300
 Wire Wire Line
-	5500 6600 5400 6600
+	15700 5200 15800 5200
+Connection ~ 15800 5200
 Wire Wire Line
-	5400 6600 5400 6700
-Connection ~ 5400 8400
+	15800 5200 15800 5300
 Wire Wire Line
-	5500 8300 5400 8300
-Connection ~ 5400 8300
+	15700 5100 15800 5100
+Connection ~ 15800 5100
 Wire Wire Line
-	5400 8300 5400 8400
+	15800 5100 15800 5200
 Wire Wire Line
-	5500 8200 5400 8200
-Connection ~ 5400 8200
+	15700 5000 15800 5000
+Connection ~ 15800 5000
 Wire Wire Line
-	5400 8200 5400 8300
+	15800 5000 15800 5100
 Wire Wire Line
-	5500 8100 5400 8100
-Connection ~ 5400 8100
+	15700 4900 15800 4900
+Connection ~ 15800 4900
 Wire Wire Line
-	5400 8100 5400 8200
+	15800 4900 15800 5000
 Wire Wire Line
-	5500 8000 5400 8000
-Connection ~ 5400 8000
+	15700 4800 15800 4800
+Connection ~ 15800 4800
 Wire Wire Line
-	5400 8000 5400 8100
+	15800 4800 15800 4900
 Wire Wire Line
-	5500 7900 5400 7900
-Connection ~ 5400 7900
+	15700 4700 15800 4700
+Connection ~ 15800 4700
 Wire Wire Line
-	5400 7900 5400 8000
+	15800 4700 15800 4800
 Wire Wire Line
-	5500 7800 5400 7800
-Connection ~ 5400 7800
+	15700 4600 15800 4600
+Connection ~ 15800 4600
 Wire Wire Line
-	5400 7800 5400 7900
+	15800 4600 15800 4700
 Wire Wire Line
-	5500 7700 5400 7700
-Connection ~ 5400 7700
+	15700 4200 15800 4200
+Connection ~ 15800 4200
 Wire Wire Line
-	5400 7700 5400 7800
+	15800 4200 15800 4600
 Wire Wire Line
-	5500 7300 5400 7300
-Connection ~ 5400 7300
+	15700 4100 15800 4100
+Connection ~ 15800 4100
 Wire Wire Line
-	5400 7300 5400 7700
+	15800 4100 15800 4200
 Wire Wire Line
-	5500 7200 5400 7200
-Connection ~ 5400 7200
+	15700 4000 15800 4000
+Connection ~ 15800 4000
 Wire Wire Line
-	5400 7200 5400 7300
+	15800 4000 15800 4100
 Wire Wire Line
-	5500 7100 5400 7100
-Connection ~ 5400 7100
+	15700 3900 15800 3900
+Connection ~ 15800 3900
 Wire Wire Line
-	5400 7100 5400 7200
+	15800 3900 15800 4000
 Wire Wire Line
-	5500 7000 5400 7000
-Connection ~ 5400 7000
+	15700 3800 15800 3800
+Connection ~ 15800 3800
 Wire Wire Line
-	5400 7000 5400 7100
+	15800 3800 15800 3900
 Wire Wire Line
-	5500 6900 5400 6900
-Connection ~ 5400 6900
+	15700 3700 15800 3700
+Connection ~ 15800 3700
 Wire Wire Line
-	5400 6900 5400 7000
+	15800 3700 15800 3800
 Wire Wire Line
-	5500 6800 5400 6800
-Connection ~ 5400 6800
+	15700 3600 15800 3600
+Connection ~ 15800 3600
 Wire Wire Line
-	5400 6800 5400 6900
-Wire Wire Line
-	5500 6700 5400 6700
-Connection ~ 5400 6700
-Wire Wire Line
-	5400 6700 5400 6800
-Wire Wire Line
-	6100 6600 6700 6600
-Wire Wire Line
-	6700 6600 6700 3900
-Wire Wire Line
-	6700 3900 8800 3900
-Wire Wire Line
-	8800 4000 6800 4000
-Wire Wire Line
-	6800 4000 6800 6700
-Wire Wire Line
-	6800 6700 6100 6700
-Wire Wire Line
-	6100 6800 6900 6800
-Wire Wire Line
-	6900 6800 6900 4100
-Wire Wire Line
-	6900 4100 8800 4100
-Wire Wire Line
-	8800 4300 7000 4300
-Wire Wire Line
-	7000 4300 7000 6900
-Wire Wire Line
-	7000 6900 6100 6900
-Wire Wire Line
-	6100 7000 7100 7000
-Wire Wire Line
-	7100 7000 7100 4400
-Wire Wire Line
-	7100 4400 8800 4400
-Wire Wire Line
-	8800 4500 7200 4500
-Wire Wire Line
-	7200 4500 7200 7100
-Wire Wire Line
-	7200 7100 6100 7100
-Wire Wire Line
-	6100 7200 7200 7200
-Wire Wire Line
-	7200 7200 7200 7500
-Wire Wire Line
-	7200 7500 8800 7500
-Wire Wire Line
-	6100 7300 7100 7300
-Wire Wire Line
-	7100 7300 7100 7600
-Wire Wire Line
-	7100 7600 8800 7600
-Wire Wire Line
-	6100 7700 8800 7700
-Wire Wire Line
-	6100 7800 8800 7800
-Wire Wire Line
-	6100 7900 8200 7900
-Wire Wire Line
-	8200 7900 8200 8000
-Wire Wire Line
-	8200 8000 8800 8000
-Wire Wire Line
-	6100 8000 8100 8000
-Wire Wire Line
-	8100 8000 8100 8100
-Wire Wire Line
-	8100 8100 8800 8100
-Wire Wire Line
-	8800 8200 8000 8200
-Wire Wire Line
-	8000 8200 8000 8100
-Wire Wire Line
-	8000 8100 6100 8100
-Wire Wire Line
-	6100 8200 7900 8200
-Wire Wire Line
-	7900 8200 7900 8400
-Wire Wire Line
-	7900 8400 8800 8400
-Wire Wire Line
-	8800 8500 7800 8500
-Wire Wire Line
-	7800 8500 7800 8300
-Wire Wire Line
-	7800 8300 6100 8300
-Wire Wire Line
-	6100 8400 7700 8400
-Wire Wire Line
-	7700 8400 7700 8700
-Wire Wire Line
-	7700 8700 8800 8700
-Wire Wire Line
-	8500 4700 8800 4700
-Wire Wire Line
-	8800 4800 8500 4800
-Wire Wire Line
-	8500 5000 8800 5000
-Wire Wire Line
-	8800 5100 8500 5100
-Wire Wire Line
-	8500 5200 8800 5200
-Wire Wire Line
-	8500 5400 8800 5400
-Wire Wire Line
-	8800 5500 8500 5500
-Wire Wire Line
-	8500 5700 8800 5700
-Wire Wire Line
-	8500 5800 8800 5800
-Wire Wire Line
-	8800 5900 8500 5900
-Wire Wire Line
-	8500 6100 8800 6100
-Wire Wire Line
-	8500 6200 8800 6200
-Wire Wire Line
-	8800 6300 8500 6300
-Wire Wire Line
-	8500 6500 8800 6500
-Wire Wire Line
-	8500 6600 8800 6600
-Wire Wire Line
-	8800 6700 8500 6700
-Wire Wire Line
-	8500 6800 8800 6800
-Wire Wire Line
-	8500 7000 8800 7000
-Wire Wire Line
-	8800 7100 8500 7100
-Wire Wire Line
-	8500 7200 8800 7200
-Wire Wire Line
-	8500 7300 8800 7300
+	15800 3600 15800 3700
 Wire Wire Line
 	13200 2100 13800 2100
 Wire Wire Line
@@ -1858,50 +1657,6 @@ Wire Wire Line
 	13800 2400 13200 2400
 Wire Wire Line
 	13200 2300 13800 2300
-Wire Wire Line
-	13800 3000 13200 3000
-Wire Wire Line
-	13200 2900 13800 2900
-Wire Wire Line
-	13800 2800 13200 2800
-Wire Wire Line
-	13200 2700 13800 2700
-Wire Wire Line
-	13800 3400 13200 3400
-Wire Wire Line
-	13200 3300 13800 3300
-Wire Wire Line
-	13200 3100 13800 3100
-Wire Wire Line
-	13800 3800 13200 3800
-Wire Wire Line
-	13200 3500 13800 3500
-Wire Wire Line
-	13800 4200 13200 4200
-Wire Wire Line
-	13200 4100 13800 4100
-Wire Wire Line
-	13800 4000 13200 4000
-Wire Wire Line
-	13800 4600 13200 4600
-Wire Wire Line
-	13800 4400 13200 4400
-Wire Wire Line
-	13200 4300 13800 4300
-Wire Wire Line
-	13200 4900 13800 4900
-Wire Wire Line
-	13800 4800 13200 4800
-Wire Wire Line
-	13200 4700 13800 4700
-Wire Wire Line
-	13800 5400 13200 5400
-Wire Wire Line
-	13200 5300 13800 5300
-Wire Wire Line
-	13800 5200 13200 5200
-Wire Wire Line
-	13200 5100 13800 5100
 Wire Wire Line
 	13800 5800 13200 5800
 Wire Wire Line
@@ -1956,21 +1711,13 @@ Wire Wire Line
 	13200 8700 13800 8700
 Wire Wire Line
 	13200 9200 13800 9200
-Wire Wire Line
-	7950 3100 8800 3100
-Wire Wire Line
-	7950 3200 8800 3200
-Text Label 8050 3100 0    50   ~ 0
+Text Label 13300 2400 0    50   ~ 0
 AUXJTAG_TDI
-Text Label 8050 3200 0    50   ~ 0
+Text Label 13300 2500 0    50   ~ 0
 AUXJTAG_TDO
-Text Label 13300 3600 0    50   ~ 0
+Text Label 13300 2100 0    50   ~ 0
 AUXJTAG_TMS
-Wire Wire Line
-	13200 3600 13850 3600
-Wire Wire Line
-	13200 3700 13850 3700
-Text Label 13300 3700 0    50   ~ 0
+Text Label 13300 2300 0    50   ~ 0
 AUXJTAG_TCK
 $Comp
 L Device:LED_Small D9
@@ -2106,8 +1853,6 @@ F 3 "~" H 6750 9300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 9200 6200 9200
-Wire Wire Line
-	8200 8800 8800 8800
 Connection ~ 6200 9200
 Wire Wire Line
 	6200 9200 6500 9200
@@ -2116,17 +1861,11 @@ Wire Wire Line
 	6500 9200 6750 9200
 Connection ~ 6750 9200
 Wire Wire Line
-	6750 9200 8200 9200
+	6750 9200 7300 9200
 Wire Wire Line
 	5900 10200 6200 10200
 Wire Wire Line
 	7400 10200 7400 9800
-Wire Wire Line
-	7400 9800 13300 9800
-Wire Wire Line
-	13300 9800 13300 9400
-Wire Wire Line
-	13300 9400 13200 9400
 Connection ~ 6200 10200
 Wire Wire Line
 	6200 10200 6500 10200
@@ -2137,20 +1876,12 @@ Connection ~ 6750 10200
 Wire Wire Line
 	6750 10200 7400 10200
 Wire Wire Line
-	13200 9300 13400 9300
-Wire Wire Line
-	13400 9300 13400 9700
-Wire Wire Line
 	5900 9700 5900 9800
 Wire Wire Line
 	5900 9700 6200 9700
 Connection ~ 6200 9700
 Wire Wire Line
-	6200 9700 13400 9700
-Wire Wire Line
 	6200 9800 6200 9700
-Wire Wire Line
-	8200 9200 8200 8800
 Wire Wire Line
 	5900 9600 5900 9700
 Connection ~ 5900 9700
@@ -2311,4 +2042,265 @@ F 3 "" H 15400 9450 50  0001 C CNN
 	1    15400 9450
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5550 2300 5550 4000
+Wire Wire Line
+	5750 2500 5000 2500
+Wire Wire Line
+	6050 2800 5000 2800
+Wire Wire Line
+	6250 3000 5000 3000
+Text Label 5200 3500 0    50   ~ 0
+ACBUS3
+Text Label 5200 3400 0    50   ~ 0
+ACBUS2
+Text Label 8050 2800 0    50   ~ 0
+ACBUS2
+Text Label 8050 2700 0    50   ~ 0
+ACBUS3
+Wire Wire Line
+	5000 3800 5500 3800
+Text Label 5200 3600 0    50   ~ 0
+ACBUS4
+Text Label 5200 3700 0    50   ~ 0
+ACBUS5
+Text Label 5200 3800 0    50   ~ 0
+ACBUS6
+Text Label 5200 3200 0    50   ~ 0
+ACBUS0
+Text Label 5200 3300 0    50   ~ 0
+ACBUS1
+Text Label 5200 2300 0    50   ~ 0
+ADBUS0
+Text Label 5200 2400 0    50   ~ 0
+ADBUS1
+Text Label 5200 2500 0    50   ~ 0
+ADBUS2
+Text Label 5200 2600 0    50   ~ 0
+ADBUS3
+Text Label 5200 2700 0    50   ~ 0
+ADBUS4
+Text Label 5200 2800 0    50   ~ 0
+ADBUS5
+Text Label 5200 2900 0    50   ~ 0
+ADBUS6
+Text Label 5200 3000 0    50   ~ 0
+ADBUS7
+Text Label 8050 2600 0    50   ~ 0
+ACBUS4
+Text Label 8050 2500 0    50   ~ 0
+ACBUS5
+Text Label 8050 2400 0    50   ~ 0
+ACBUS6
+Wire Wire Line
+	6200 9700 7400 9700
+Wire Wire Line
+	7400 9800 7500 9800
+$Comp
+L project-chibi:5M240_570ZT144x U6
+U 2 1 5B496D3D
+P 12300 5700
+F 0 "U6" H 11800 9650 50  0000 R CNN
+F 1 "5M240ZT144C5N" H 12200 9550 50  0000 R CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 12950 8500 50  0001 C CNN
+F 3 "" H 12950 8500 50  0001 C CNN
+	2    12300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 9300 13800 9300
+Wire Wire Line
+	13200 9400 13800 9400
+Wire Wire Line
+	14500 4600 15100 4600
+Wire Wire Line
+	14900 3600 15100 3600
+Wire Wire Line
+	14600 4700 15100 4700
+Wire Wire Line
+	14800 3700 15100 3700
+Wire Wire Line
+	14700 4800 15100 4800
+Wire Wire Line
+	14300 4900 15100 4900
+Wire Wire Line
+	14200 3900 15100 3900
+Wire Wire Line
+	14000 5000 15100 5000
+Wire Wire Line
+	14400 4100 14400 5100
+Wire Wire Line
+	14400 5100 15100 5100
+Wire Wire Line
+	14800 4200 14800 4100
+Wire Wire Line
+	14800 4100 15100 4100
+Wire Wire Line
+	14200 4300 14200 5200
+Wire Wire Line
+	14200 5200 15100 5200
+Wire Wire Line
+	14900 4400 14900 4200
+Wire Wire Line
+	14900 4200 15100 4200
+Wire Wire Line
+	14100 4500 14100 5300
+Wire Wire Line
+	14100 5300 15100 5300
+Wire Wire Line
+	8800 7200 7300 7200
+Wire Wire Line
+	7300 7200 7300 9200
+Wire Wire Line
+	8800 4000 5550 4000
+Wire Wire Line
+	8800 3600 7750 3600
+Wire Wire Line
+	7750 3600 7750 3700
+Wire Wire Line
+	8800 3500 7650 3500
+Wire Wire Line
+	7650 3500 7650 3600
+Wire Wire Line
+	8800 3400 7550 3400
+Wire Wire Line
+	7550 3400 7550 3500
+Wire Wire Line
+	8800 3300 7450 3300
+Wire Wire Line
+	7450 3300 7450 3400
+Wire Wire Line
+	6250 3000 6250 3300
+Wire Wire Line
+	7350 3200 7350 3300
+Wire Wire Line
+	7350 3200 8800 3200
+Wire Wire Line
+	7250 3100 7250 3200
+Wire Wire Line
+	7250 3100 8800 3100
+Wire Wire Line
+	5650 3900 8800 3900
+Wire Wire Line
+	5650 3900 5650 2400
+Wire Wire Line
+	8800 3800 5750 3800
+Wire Wire Line
+	5750 3800 5750 2500
+Wire Wire Line
+	5850 3700 7750 3700
+Wire Wire Line
+	5850 3700 5850 2600
+Wire Wire Line
+	5950 3600 7650 3600
+Wire Wire Line
+	5950 3600 5950 2700
+Wire Wire Line
+	6050 3500 7550 3500
+Wire Wire Line
+	6050 3500 6050 2800
+Wire Wire Line
+	6150 3400 7450 3400
+Wire Wire Line
+	6150 3400 6150 2900
+Wire Wire Line
+	6250 3300 7350 3300
+Wire Wire Line
+	5000 3200 7250 3200
+Wire Wire Line
+	5000 3300 5500 3300
+Text Label 8050 2900 0    50   ~ 0
+ACBUS1
+Wire Wire Line
+	8800 7100 7400 7100
+Wire Wire Line
+	7400 7100 7400 9700
+Wire Wire Line
+	8800 7000 7500 7000
+Wire Wire Line
+	7500 7000 7500 9800
+Wire Wire Line
+	13200 2800 14500 2800
+Wire Wire Line
+	14500 2800 14500 4600
+Wire Wire Line
+	13200 2900 14900 2900
+Wire Wire Line
+	14900 2900 14900 3600
+Wire Wire Line
+	13200 3000 14600 3000
+Wire Wire Line
+	14600 3000 14600 4700
+Wire Wire Line
+	13200 3100 14800 3100
+Wire Wire Line
+	14800 3100 14800 3700
+Wire Wire Line
+	13200 3300 14700 3300
+Wire Wire Line
+	14700 3300 14700 4800
+Wire Wire Line
+	13200 3500 14300 3500
+Wire Wire Line
+	14300 3500 14300 4900
+Wire Wire Line
+	13200 3600 14200 3600
+Wire Wire Line
+	14200 3600 14200 3900
+Wire Wire Line
+	13200 3700 14000 3700
+Wire Wire Line
+	14000 3700 14000 5000
+Wire Wire Line
+	13200 3800 13900 3800
+Wire Wire Line
+	13900 3800 13900 4000
+Wire Wire Line
+	13900 4000 15100 4000
+Wire Wire Line
+	13200 4000 13700 4000
+Wire Wire Line
+	13700 4000 13700 4100
+Wire Wire Line
+	13700 4100 14400 4100
+Wire Wire Line
+	13200 4100 13600 4100
+Wire Wire Line
+	13600 4100 13600 4200
+Wire Wire Line
+	13600 4200 14800 4200
+Wire Wire Line
+	13200 4200 13500 4200
+Wire Wire Line
+	13500 4200 13500 4300
+Wire Wire Line
+	13500 4300 14200 4300
+Wire Wire Line
+	13200 4300 13400 4300
+Wire Wire Line
+	13400 4300 13400 4400
+Wire Wire Line
+	13400 4400 14900 4400
+Wire Wire Line
+	13200 4400 13300 4400
+Wire Wire Line
+	13300 4400 13300 4500
+Wire Wire Line
+	13300 4500 14100 4500
+Wire Wire Line
+	15000 3500 15000 2700
+Wire Wire Line
+	15000 3500 15100 3500
+Wire Wire Line
+	13200 2700 15000 2700
+Wire Wire Line
+	14400 3400 14400 3800
+Wire Wire Line
+	14400 3800 15100 3800
+Wire Wire Line
+	13200 3400 14400 3400
+Wire Wire Line
+	15700 3500 15800 3500
+Wire Wire Line
+	15800 3500 15800 3600
 $EndSCHEMATC
