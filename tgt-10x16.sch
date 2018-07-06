@@ -935,39 +935,39 @@ Wire Wire Line
 Wire Wire Line
 	13600 5300 14200 5300
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C497F47
 P 1850 1300
 AR Path="/5B491809/5C497F47" Ref="J?"  Part="1" 
 AR Path="/5B491811/5C497F47" Ref="J36"  Part="1" 
-F 0 "J36" H 1900 1717 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1900 1626 50  0000 C CNN
+F 0 "J36" H 1900 1600 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1900 1626 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1850 1300 50  0001 C CNN
 F 3 "~" H 1850 1300 50  0001 C CNN
 	1    1850 1300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C497F4E
 P 1850 2200
 AR Path="/5B491809/5C497F4E" Ref="J?"  Part="1" 
 AR Path="/5B491811/5C497F4E" Ref="J37"  Part="1" 
-F 0 "J37" H 1900 2617 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1900 2526 50  0000 C CNN
+F 0 "J37" H 1900 2500 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1900 2526 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1850 2200 50  0001 C CNN
 F 3 "~" H 1850 2200 50  0001 C CNN
 	1    1850 2200
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C497F55
 P 1850 3100
 AR Path="/5B491809/5C497F55" Ref="J?"  Part="1" 
 AR Path="/5B491811/5C497F55" Ref="J38"  Part="1" 
-F 0 "J38" H 1900 3517 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1900 3426 50  0000 C CNN
+F 0 "J38" H 1900 3400 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1900 3426 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1850 3100 50  0001 C CNN
 F 3 "~" H 1850 3100 50  0001 C CNN
 	1    1850 3100
@@ -1163,13 +1163,13 @@ Wire Wire Line
 Wire Wire Line
 	2050 3100 3000 3100
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C497FBF
 P 1850 4000
 AR Path="/5B491809/5C497FBF" Ref="J?"  Part="1" 
 AR Path="/5B491811/5C497FBF" Ref="J39"  Part="1" 
-F 0 "J39" H 1900 4417 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1900 4326 50  0000 C CNN
+F 0 "J39" H 1900 4300 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1900 4326 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1850 4000 50  0001 C CNN
 F 3 "~" H 1850 4000 50  0001 C CNN
 	1    1850 4000
