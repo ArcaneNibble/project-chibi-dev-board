@@ -934,39 +934,39 @@ Wire Wire Line
 Wire Wire Line
 	2300 8300 3050 8300
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C4A279E
 P 1750 1250
 AR Path="/5B491809/5C4A279E" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A279E" Ref="J12"  Part="1" 
-F 0 "J12" H 1800 1667 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1800 1576 50  0000 C CNN
+F 0 "J12" H 1800 1550 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 1576 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1750 1250 50  0001 C CNN
 F 3 "~" H 1750 1250 50  0001 C CNN
 	1    1750 1250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C4A27A5
 P 1750 2150
 AR Path="/5B491809/5C4A27A5" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A27A5" Ref="J13"  Part="1" 
-F 0 "J13" H 1800 2567 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1800 2476 50  0000 C CNN
+F 0 "J13" H 1800 2450 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 2476 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1750 2150 50  0001 C CNN
 F 3 "~" H 1750 2150 50  0001 C CNN
 	1    1750 2150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C4A27AC
 P 1750 3050
 AR Path="/5B491809/5C4A27AC" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A27AC" Ref="J14"  Part="1" 
-F 0 "J14" H 1800 3467 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1800 3376 50  0000 C CNN
+F 0 "J14" H 1800 3350 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 3376 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1750 3050 50  0001 C CNN
 F 3 "~" H 1750 3050 50  0001 C CNN
 	1    1750 3050
@@ -1162,13 +1162,13 @@ Wire Wire Line
 Wire Wire Line
 	1950 3050 2900 3050
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J?
+L Connector_Generic:Conn_02x06_Odd_Even J?
 U 1 1 5C4A2816
 P 1750 3950
 AR Path="/5B491809/5C4A2816" Ref="J?"  Part="1" 
 AR Path="/5B491814/5C4A2816" Ref="J15"  Part="1" 
-F 0 "J15" H 1800 4367 50  0000 C CNN
-F 1 "Conn_02x06_Top_Bottom" H 1800 4276 50  0000 C CNN
+F 0 "J15" H 1800 4250 50  0000 C CNN
+F 1 "Conn_02x06_Top_Bottom" H 1800 4276 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1750 3950 50  0001 C CNN
 F 3 "~" H 1750 3950 50  0001 C CNN
 	1    1750 3950
