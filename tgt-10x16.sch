@@ -22,47 +22,36 @@ Text HLabel 14200 8500 0    50   Input ~ 0
 JTAG_TMS
 Text HLabel 14200 8600 0    50   Input ~ 0
 JTAG_TCK
-Text HLabel 8950 9300 2    50   Input ~ 0
+Text HLabel 2250 8800 2    50   Input ~ 0
 ADBUS0
-Text HLabel 8950 9400 2    50   Input ~ 0
+Text HLabel 2250 9000 2    50   Input ~ 0
 ADBUS1
-Text HLabel 8950 9500 2    50   Input ~ 0
+Text HLabel 2250 9300 2    50   Input ~ 0
 ADBUS2
-Text HLabel 8950 9600 2    50   Input ~ 0
+Text HLabel 2250 9500 2    50   Input ~ 0
 ADBUS3
-Text HLabel 8950 9800 2    50   Input ~ 0
+Text HLabel 2250 9700 2    50   Input ~ 0
 ADBUS4
-Text HLabel 8950 9900 2    50   Input ~ 0
+Text HLabel 2250 9900 2    50   Input ~ 0
 ADBUS5
-Text HLabel 8950 10000 2    50   Input ~ 0
+Text HLabel 2250 10400 2    50   Input ~ 0
 ADBUS6
-Text HLabel 8950 10100 2    50   Input ~ 0
+Text HLabel 2250 10600 2    50   Input ~ 0
 ADBUS7
-Text HLabel 8950 10200 2    50   Input ~ 0
+Text HLabel 2250 9800 2    50   Input ~ 0
 ACBUS0
-Text HLabel 8950 10400 2    50   Input ~ 0
+Text HLabel 2250 10500 2    50   Input ~ 0
 ACBUS1
-Text HLabel 8950 10500 2    50   Input ~ 0
+Text HLabel 2250 10200 2    50   Input ~ 0
 ACBUS2
-Text HLabel 8950 10600 2    50   Input ~ 0
+Text HLabel 2250 11000 2    50   Input ~ 0
 ACBUS3
-Text HLabel 8950 10700 2    50   Input ~ 0
+Text HLabel 2250 9600 2    50   Input ~ 0
 ACBUS4
-Text HLabel 8950 10800 2    50   Input ~ 0
+Text HLabel 2250 10300 2    50   Input ~ 0
 ACBUS5
-Text HLabel 8950 10900 2    50   Input ~ 0
+Text HLabel 2250 10700 2    50   Input ~ 0
 ACBUS6
-$Comp
-L project-chibi:5M1270ZF256x U11
-U 1 1 5C25817B
-P 1350 8200
-F 0 "U11" H 850 11150 50  0000 R CNN
-F 1 "5M1270ZF256C5N" H 1350 5350 50  0000 R CNN
-F 2 "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD" H -4650 7000 50  0001 C CNN
-F 3 "" H -4650 7000 50  0001 C CNN
-	1    1350 8200
-	1    0    0    -1  
-$EndComp
 $Comp
 L project-chibi:5M1270ZF256x U11
 U 3 1 5C2582A2
@@ -1316,69 +1305,69 @@ Wire Wire Line
 	14200 1900 13050 1900
 Wire Wire Line
 	12550 600  15100 600 
-Text Label 2950 5400 0    50   ~ 0
-EXPAND0_0
-Text Label 2950 5500 0    50   ~ 0
-EXPAND0_1
-Text Label 2950 5600 0    50   ~ 0
-EXPAND0_2
 Text Label 2950 5700 0    50   ~ 0
-EXPAND0_3
-Text Label 2950 5800 0    50   ~ 0
-EXPAND0_4
-Text Label 2950 5900 0    50   ~ 0
-EXPAND0_5
-Text Label 2950 6000 0    50   ~ 0
-EXPAND0_6
-Text Label 2950 6200 0    50   ~ 0
-EXPAND0_7
-Text Label 6400 4200 0    50   ~ 0
-EXPAND1_0
-Text Label 6400 4300 0    50   ~ 0
-EXPAND1_1
-Text Label 6400 4400 0    50   ~ 0
-EXPAND1_2
-Text Label 6400 4600 0    50   ~ 0
-EXPAND1_3
+EXPAND0_0
 Text Label 6400 4700 0    50   ~ 0
-EXPAND1_4
-Text Label 6400 4800 0    50   ~ 0
-EXPAND1_5
-Text Label 6400 4900 0    50   ~ 0
-EXPAND1_6
+EXPAND0_1
 Text Label 6400 5100 0    50   ~ 0
+EXPAND0_2
+Text Label 6400 4200 0    50   ~ 0
+EXPAND0_3
+Text Label 6400 4900 0    50   ~ 0
+EXPAND0_4
+Text Label 6400 4400 0    50   ~ 0
+EXPAND0_5
+Text Label 6400 4800 0    50   ~ 0
+EXPAND0_6
+Text Label 6400 4600 0    50   ~ 0
+EXPAND0_7
+Text Label 2950 5800 0    50   ~ 0
+EXPAND1_0
+Text Label 2950 6200 0    50   ~ 0
+EXPAND1_1
+Text Label 2950 5400 0    50   ~ 0
+EXPAND1_2
+Text Label 6400 4300 0    50   ~ 0
+EXPAND1_3
+Text Label 2950 6000 0    50   ~ 0
+EXPAND1_4
+Text Label 2950 5600 0    50   ~ 0
+EXPAND1_5
+Text Label 2950 5900 0    50   ~ 0
+EXPAND1_6
+Text Label 2950 5500 0    50   ~ 0
 EXPAND1_7
-Text Label 9650 4600 0    50   ~ 0
+Text Label 9650 5200 0    50   ~ 0
 EXPAND2_0
-Text Label 9650 4700 0    50   ~ 0
-EXPAND2_1
 Text Label 9650 4800 0    50   ~ 0
+EXPAND2_1
+Text Label 9650 5300 0    50   ~ 0
 EXPAND2_2
 Text Label 9650 4900 0    50   ~ 0
 EXPAND2_3
-Text Label 9650 5000 0    50   ~ 0
+Text Label 9650 4600 0    50   ~ 0
 EXPAND2_4
-Text Label 9650 5200 0    50   ~ 0
+Text Label 9650 5000 0    50   ~ 0
 EXPAND2_5
-Text Label 9650 5300 0    50   ~ 0
+Text Label 9650 4700 0    50   ~ 0
 EXPAND2_6
 Text Label 9650 5400 0    50   ~ 0
 EXPAND2_7
-Text Label 13100 1000 0    50   ~ 0
-EXPAND3_0
-Text Label 13100 1100 0    50   ~ 0
-EXPAND3_1
-Text Label 13100 1300 0    50   ~ 0
-EXPAND3_2
-Text Label 13100 1400 0    50   ~ 0
-EXPAND3_3
-Text Label 13100 1500 0    50   ~ 0
-EXPAND3_4
-Text Label 13100 1600 0    50   ~ 0
-EXPAND3_5
 Text Label 13100 1800 0    50   ~ 0
-EXPAND3_6
+EXPAND3_0
+Text Label 13100 1600 0    50   ~ 0
+EXPAND3_1
 Text Label 13100 1900 0    50   ~ 0
+EXPAND3_2
+Text Label 13100 1500 0    50   ~ 0
+EXPAND3_3
+Text Label 13100 1400 0    50   ~ 0
+EXPAND3_4
+Text Label 13100 1100 0    50   ~ 0
+EXPAND3_5
+Text Label 13100 1300 0    50   ~ 0
+EXPAND3_6
+Text Label 13100 1000 0    50   ~ 0
 EXPAND3_7
 $Comp
 L Connector_Generic:Conn_01x02 J?
@@ -1492,26 +1481,11 @@ NoConn ~ 2250 7900
 NoConn ~ 2250 8500
 NoConn ~ 2250 8600
 NoConn ~ 2250 8700
-NoConn ~ 2250 8800
 NoConn ~ 2250 8900
-NoConn ~ 2250 9000
 NoConn ~ 2250 9100
-NoConn ~ 2250 9300
 NoConn ~ 2250 9400
-NoConn ~ 2250 9500
-NoConn ~ 2250 9600
-NoConn ~ 2250 9700
-NoConn ~ 2250 9800
-NoConn ~ 2250 9900
 NoConn ~ 2250 10100
-NoConn ~ 2250 10200
-NoConn ~ 2250 10300
-NoConn ~ 2250 10400
-NoConn ~ 2250 10500
-NoConn ~ 2250 10600
-NoConn ~ 2250 10700
 NoConn ~ 2250 10900
-NoConn ~ 2250 11000
 NoConn ~ 2250 7700
 NoConn ~ 2250 7800
 NoConn ~ 2250 8000
@@ -1725,4 +1699,30 @@ Wire Wire Line
 Connection ~ 11350 6850
 Wire Wire Line
 	11350 6850 12000 6850
+$Comp
+L project-chibi:5M1270ZF256x U11
+U 1 1 5C25817B
+P 1350 8200
+F 0 "U11" H 850 11150 50  0000 R CNN
+F 1 "5M1270ZF256C5N" H 1350 5350 50  0000 R CNN
+F 2 "Package_BGA:BGA-256_17.0x17.0mm_Layout16x16_P1.0mm_Ball0.5mm_Pad0.4mm_NSMD" H -4650 7000 50  0001 C CNN
+F 3 "" H -4650 7000 50  0001 C CNN
+	1    1350 8200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8950 9300
+NoConn ~ 8950 9400
+NoConn ~ 8950 9500
+NoConn ~ 8950 9600
+NoConn ~ 8950 9800
+NoConn ~ 8950 9900
+NoConn ~ 8950 10000
+NoConn ~ 8950 10100
+NoConn ~ 8950 10200
+NoConn ~ 8950 10400
+NoConn ~ 8950 10500
+NoConn ~ 8950 10600
+NoConn ~ 8950 10700
+NoConn ~ 8950 10800
+NoConn ~ 8950 10900
 $EndSCHEMATC
