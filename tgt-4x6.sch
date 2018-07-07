@@ -537,35 +537,35 @@ Wire Wire Line
 	2400 1500 3850 1500
 Wire Wire Line
 	2400 1600 3850 1600
-Text Label 3400 1400 0    50   ~ 0
-EXPAND0_0
-Text Label 3400 9100 0    50   ~ 0
-EXPAND0_1
-Text Label 3400 9700 0    50   ~ 0
-EXPAND0_2
-Text Label 3400 9500 0    50   ~ 0
-EXPAND0_3
 Text Label 3400 1500 0    50   ~ 0
-EXPAND0_4
+EXPAND0_0
 Text Label 3400 9200 0    50   ~ 0
-EXPAND0_5
+EXPAND0_1
 Text Label 3400 9000 0    50   ~ 0
-EXPAND0_6
+EXPAND0_2
 Text Label 3400 9600 0    50   ~ 0
+EXPAND0_3
+Text Label 3400 1400 0    50   ~ 0
+EXPAND0_4
+Text Label 3400 9100 0    50   ~ 0
+EXPAND0_5
+Text Label 3400 9700 0    50   ~ 0
+EXPAND0_6
+Text Label 3400 9500 0    50   ~ 0
 EXPAND0_7
-Text Label 3400 10000 0    50   ~ 0
+Text Label 3400 9400 0    50   ~ 0
 EXPAND1_0
-Text Label 3400 10400 0    50   ~ 0
+Text Label 3400 9900 0    50   ~ 0
 EXPAND1_1
-Text Label 3400 10200 0    50   ~ 0
+Text Label 3400 10300 0    50   ~ 0
 EXPAND1_2
 Text Label 3400 10600 0    50   ~ 0
 EXPAND1_3
-Text Label 3400 9400 0    50   ~ 0
+Text Label 3400 10000 0    50   ~ 0
 EXPAND1_4
-Text Label 3400 9900 0    50   ~ 0
+Text Label 3400 10400 0    50   ~ 0
 EXPAND1_5
-Text Label 3400 10300 0    50   ~ 0
+Text Label 3400 10200 0    50   ~ 0
 EXPAND1_6
 Text Label 3400 10700 0    50   ~ 0
 EXPAND1_7
