@@ -584,4 +584,119 @@ F 3 "" H 650 7000 50  0001 C CNN
 	1    650  7000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J48
+U 1 1 5F839BC6
+P 1500 4700
+F 0 "J48" H 1580 4692 50  0000 L CNN
+F 1 "Conn_01x02" H 1580 4601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 4700 50  0001 C CNN
+F 3 "~" H 1500 4700 50  0001 C CNN
+	1    1500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J49
+U 1 1 5F839C74
+P 1500 4950
+F 0 "J49" H 1580 4942 50  0000 L CNN
+F 1 "Conn_01x02" H 1580 4851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 4950 50  0001 C CNN
+F 3 "~" H 1500 4950 50  0001 C CNN
+	1    1500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J50
+U 1 1 5F839CAE
+P 1500 5200
+F 0 "J50" H 1580 5192 50  0000 L CNN
+F 1 "Conn_01x02" H 1580 5101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 5200 50  0001 C CNN
+F 3 "~" H 1500 5200 50  0001 C CNN
+	1    1500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J51
+U 1 1 5F839CDE
+P 1500 5450
+F 0 "J51" H 1580 5442 50  0000 L CNN
+F 1 "Conn_01x02" H 1580 5351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 5450 50  0001 C CNN
+F 3 "~" H 1500 5450 50  0001 C CNN
+	1    1500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J52
+U 1 1 5F839D14
+P 1500 5700
+F 0 "J52" H 1580 5692 50  0000 L CNN
+F 1 "Conn_01x02" H 1580 5601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1500 5700 50  0001 C CNN
+F 3 "~" H 1500 5700 50  0001 C CNN
+	1    1500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 5F839DA6
+P 1200 5900
+F 0 "#PWR036" H 1200 5650 50  0001 C CNN
+F 1 "GND" H 1205 5727 50  0000 C CNN
+F 2 "" H 1200 5900 50  0001 C CNN
+F 3 "" H 1200 5900 50  0001 C CNN
+	1    1200 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4700 1200 4700
+Wire Wire Line
+	1200 4700 1200 4800
+Wire Wire Line
+	1300 5800 1200 5800
+Connection ~ 1200 5800
+Wire Wire Line
+	1200 5800 1200 5900
+Wire Wire Line
+	1300 5700 1200 5700
+Connection ~ 1200 5700
+Wire Wire Line
+	1200 5700 1200 5800
+Wire Wire Line
+	1300 5550 1200 5550
+Connection ~ 1200 5550
+Wire Wire Line
+	1200 5550 1200 5700
+Wire Wire Line
+	1300 5450 1200 5450
+Connection ~ 1200 5450
+Wire Wire Line
+	1200 5450 1200 5550
+Wire Wire Line
+	1300 5300 1200 5300
+Connection ~ 1200 5300
+Wire Wire Line
+	1200 5300 1200 5450
+Wire Wire Line
+	1300 5200 1200 5200
+Connection ~ 1200 5200
+Wire Wire Line
+	1200 5200 1200 5300
+Wire Wire Line
+	1300 5050 1200 5050
+Connection ~ 1200 5050
+Wire Wire Line
+	1200 5050 1200 5200
+Wire Wire Line
+	1300 4950 1200 4950
+Connection ~ 1200 4950
+Wire Wire Line
+	1200 4950 1200 5050
+Wire Wire Line
+	1300 4800 1200 4800
+Connection ~ 1200 4800
+Wire Wire Line
+	1200 4800 1200 4950
 $EndSCHEMATC
