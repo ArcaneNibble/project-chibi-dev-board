@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title "Project Chibi Test Board"
 Date ""
 Rev "A"
@@ -1385,157 +1385,157 @@ Wire Wire Line
 	5000 3700 5500 3700
 Wire Wire Line
 	5100 1200 5100 3900
-Text HLabel 8800 1900 0    50   Input ~ 0
+Text HLabel 8800 4300 0    50   Input ~ 0
 TGT0_JTAG_TDI
-Text HLabel 8800 2000 0    50   Input ~ 0
-TGT0_JTAG_TDO
-Text HLabel 8800 2100 0    50   Input ~ 0
-TGT0_JTAG_TMS
-Text HLabel 8800 2200 0    50   Input ~ 0
-TGT0_JTAG_TCK
-Text HLabel 8800 5400 0    50   Input ~ 0
-TGT1_JTAG_TDI
-Text HLabel 8800 5500 0    50   Input ~ 0
-TGT1_JTAG_TDO
-Text HLabel 8800 5700 0    50   Input ~ 0
-TGT1_JTAG_TMS
-Text HLabel 8800 5800 0    50   Input ~ 0
-TGT1_JTAG_TCK
-Text HLabel 13200 4900 2    50   Input ~ 0
-TGT2_JTAG_TDI
-Text HLabel 13200 5100 2    50   Input ~ 0
-TGT2_JTAG_TDO
-Text HLabel 13200 5200 2    50   Input ~ 0
-TGT2_JTAG_TMS
-Text HLabel 13200 4800 2    50   Input ~ 0
-TGT2_JTAG_TCK
-Text HLabel 13800 7200 2    50   Input ~ 0
-TGT3_JTAG_TDI
-Text HLabel 13800 8000 2    50   Input ~ 0
-TGT3_JTAG_TDO
-Text HLabel 13800 8900 2    50   Input ~ 0
-TGT3_JTAG_TMS
-Text HLabel 13800 9000 2    50   Input ~ 0
-TGT3_JTAG_TCK
 Text HLabel 13800 5600 2    50   Input ~ 0
+TGT0_JTAG_TDO
+Text HLabel 8800 4400 0    50   Input ~ 0
+TGT0_JTAG_TMS
+Text HLabel 8800 4500 0    50   Input ~ 0
+TGT0_JTAG_TCK
+Text HLabel 8800 6100 0    50   Input ~ 0
+TGT1_JTAG_TDI
+Text HLabel 8800 6200 0    50   Input ~ 0
+TGT1_JTAG_TDO
+Text HLabel 8800 6600 0    50   Input ~ 0
+TGT1_JTAG_TMS
+Text HLabel 8800 7300 0    50   Input ~ 0
+TGT1_JTAG_TCK
+Text HLabel 8800 7800 0    50   Input ~ 0
+TGT2_JTAG_TDI
+Text HLabel 8800 7700 0    50   Input ~ 0
+TGT2_JTAG_TDO
+Text HLabel 8800 7500 0    50   Input ~ 0
+TGT2_JTAG_TMS
+Text HLabel 8800 7600 0    50   Input ~ 0
+TGT2_JTAG_TCK
+Text HLabel 13800 8700 2    50   Input ~ 0
+TGT3_JTAG_TDI
+Text HLabel 13800 8200 2    50   Input ~ 0
+TGT3_JTAG_TDO
+Text HLabel 13800 8300 2    50   Input ~ 0
+TGT3_JTAG_TMS
+Text HLabel 13800 8400 2    50   Input ~ 0
+TGT3_JTAG_TCK
+Text HLabel 8800 2200 0    50   Input ~ 0
 TGT0_ADBUS0
-Text HLabel 13800 6500 2    50   Input ~ 0
+Text HLabel 8800 2100 0    50   Input ~ 0
 TGT0_ADBUS1
-Text HLabel 13800 5800 2    50   Input ~ 0
+Text HLabel 8800 2000 0    50   Input ~ 0
 TGT0_ADBUS2
-Text HLabel 13800 5900 2    50   Input ~ 0
+Text HLabel 8800 1900 0    50   Input ~ 0
 TGT0_ADBUS3
 Text HLabel 13800 6100 2    50   Input ~ 0
 TGT0_ADBUS4
 Text HLabel 13800 6200 2    50   Input ~ 0
 TGT0_ADBUS5
-Text HLabel 13800 6700 2    50   Input ~ 0
+Text HLabel 13800 5800 2    50   Input ~ 0
 TGT0_ADBUS6
-Text HLabel 13800 6400 2    50   Input ~ 0
+Text HLabel 13800 5900 2    50   Input ~ 0
 TGT0_ADBUS7
-Text HLabel 8800 5900 0    50   Input ~ 0
-TGT1_ADBUS0
-Text HLabel 8800 6100 0    50   Input ~ 0
-TGT1_ADBUS1
-Text HLabel 8800 6200 0    50   Input ~ 0
-TGT1_ADBUS2
-Text HLabel 8800 6300 0    50   Input ~ 0
-TGT1_ADBUS3
-Text HLabel 8800 5000 0    50   Input ~ 0
-TGT1_ADBUS4
 Text HLabel 8800 4100 0    50   Input ~ 0
-TGT1_ADBUS5
-Text HLabel 8800 4700 0    50   Input ~ 0
-TGT1_ADBUS6
+TGT1_ADBUS0
 Text HLabel 8800 4800 0    50   Input ~ 0
+TGT1_ADBUS1
+Text HLabel 8800 4700 0    50   Input ~ 0
+TGT1_ADBUS2
+Text HLabel 8800 5200 0    50   Input ~ 0
+TGT1_ADBUS3
+Text HLabel 8800 5100 0    50   Input ~ 0
+TGT1_ADBUS4
+Text HLabel 8800 5000 0    50   Input ~ 0
+TGT1_ADBUS5
+Text HLabel 8800 5500 0    50   Input ~ 0
+TGT1_ADBUS6
+Text HLabel 8800 5400 0    50   Input ~ 0
 TGT1_ADBUS7
-Text HLabel 8800 8500 0    50   Input ~ 0
-TGT2_ADBUS0
 Text HLabel 13200 4600 2    50   Input ~ 0
-TGT2_ADBUS1
+TGT2_ADBUS0
 Text HLabel 13200 4700 2    50   Input ~ 0
+TGT2_ADBUS1
+Text HLabel 13200 4900 2    50   Input ~ 0
 TGT2_ADBUS2
-Text HLabel 8800 7500 0    50   Input ~ 0
+Text HLabel 13200 5200 2    50   Input ~ 0
 TGT2_ADBUS3
-Text HLabel 8800 7600 0    50   Input ~ 0
+Text HLabel 13200 5400 2    50   Input ~ 0
 TGT2_ADBUS4
-Text HLabel 8800 7700 0    50   Input ~ 0
+Text HLabel 8800 8800 0    50   Input ~ 0
 TGT2_ADBUS5
-Text HLabel 8800 7800 0    50   Input ~ 0
+Text HLabel 8800 8500 0    50   Input ~ 0
 TGT2_ADBUS6
-Text HLabel 8800 8000 0    50   Input ~ 0
+Text HLabel 8800 8100 0    50   Input ~ 0
 TGT2_ADBUS7
-Text HLabel 13800 7700 2    50   Input ~ 0
+Text HLabel 13800 2000 2    50   Input ~ 0
 TGT3_ADBUS0
-Text HLabel 13800 7800 2    50   Input ~ 0
+Text HLabel 13800 1900 2    50   Input ~ 0
 TGT3_ADBUS1
-Text HLabel 13800 7900 2    50   Input ~ 0
+Text HLabel 13800 9200 2    50   Input ~ 0
 TGT3_ADBUS2
-Text HLabel 13800 8200 2    50   Input ~ 0
+Text HLabel 13800 9300 2    50   Input ~ 0
 TGT3_ADBUS3
-Text HLabel 13800 8300 2    50   Input ~ 0
+Text HLabel 13800 9400 2    50   Input ~ 0
 TGT3_ADBUS4
-Text HLabel 13800 8400 2    50   Input ~ 0
+Text HLabel 13800 8900 2    50   Input ~ 0
 TGT3_ADBUS5
 Text HLabel 13800 8600 2    50   Input ~ 0
 TGT3_ADBUS6
-Text HLabel 13800 8700 2    50   Input ~ 0
+Text HLabel 13800 9000 2    50   Input ~ 0
 TGT3_ADBUS7
-Text HLabel 13800 6800 2    50   Input ~ 0
-TGT0_ACBUS0
-Text HLabel 13800 6900 2    50   Input ~ 0
-TGT0_ACBUS1
 Text HLabel 13800 7000 2    50   Input ~ 0
+TGT0_ACBUS0
+Text HLabel 13800 6400 2    50   Input ~ 0
+TGT0_ACBUS1
+Text HLabel 13800 6500 2    50   Input ~ 0
 TGT0_ACBUS2
-Text HLabel 13800 7400 2    50   Input ~ 0
+Text HLabel 13800 6800 2    50   Input ~ 0
 TGT0_ACBUS3
-Text HLabel 8800 4300 0    50   Input ~ 0
+Text HLabel 13800 6900 2    50   Input ~ 0
 TGT0_ACBUS4
-Text HLabel 8800 4400 0    50   Input ~ 0
+Text HLabel 13800 7500 2    50   Input ~ 0
 TGT0_ACBUS5
-Text HLabel 8800 4500 0    50   Input ~ 0
+Text HLabel 13800 6700 2    50   Input ~ 0
 TGT0_ACBUS6
-Text HLabel 8800 6500 0    50   Input ~ 0
+Text HLabel 8800 5900 0    50   Input ~ 0
 TGT1_ACBUS0
-Text HLabel 8800 7300 0    50   Input ~ 0
+Text HLabel 8800 5800 0    50   Input ~ 0
 TGT1_ACBUS1
-Text HLabel 8800 6600 0    50   Input ~ 0
+Text HLabel 8800 5700 0    50   Input ~ 0
 TGT1_ACBUS2
 Text HLabel 8800 6700 0    50   Input ~ 0
 TGT1_ACBUS3
 Text HLabel 8800 6800 0    50   Input ~ 0
 TGT1_ACBUS4
-Text HLabel 8800 5100 0    50   Input ~ 0
+Text HLabel 8800 6500 0    50   Input ~ 0
 TGT1_ACBUS5
-Text HLabel 8800 5200 0    50   Input ~ 0
+Text HLabel 8800 6300 0    50   Input ~ 0
 TGT1_ACBUS6
-Text HLabel 13200 5300 2    50   Input ~ 0
-TGT2_ACBUS0
-Text HLabel 13200 5400 2    50   Input ~ 0
-TGT2_ACBUS1
 Text HLabel 8800 8700 0    50   Input ~ 0
-TGT2_ACBUS2
-Text HLabel 8800 8800 0    50   Input ~ 0
-TGT2_ACBUS3
-Text HLabel 8800 8100 0    50   Input ~ 0
-TGT2_ACBUS4
-Text HLabel 8800 8200 0    50   Input ~ 0
-TGT2_ACBUS5
+TGT2_ACBUS0
 Text HLabel 8800 8400 0    50   Input ~ 0
+TGT2_ACBUS1
+Text HLabel 8800 8000 0    50   Input ~ 0
+TGT2_ACBUS2
+Text HLabel 8800 8200 0    50   Input ~ 0
+TGT2_ACBUS3
+Text HLabel 13200 5300 2    50   Input ~ 0
+TGT2_ACBUS4
+Text HLabel 13200 5100 2    50   Input ~ 0
+TGT2_ACBUS5
+Text HLabel 13200 4800 2    50   Input ~ 0
 TGT2_ACBUS6
-Text HLabel 13800 9200 2    50   Input ~ 0
+Text HLabel 13800 7700 2    50   Input ~ 0
 TGT3_ACBUS0
-Text HLabel 13800 9300 2    50   Input ~ 0
+Text HLabel 13800 7800 2    50   Input ~ 0
 TGT3_ACBUS1
-Text HLabel 13800 9400 2    50   Input ~ 0
+Text HLabel 13800 7900 2    50   Input ~ 0
 TGT3_ACBUS2
-Text HLabel 13800 1900 2    50   Input ~ 0
+Text HLabel 13800 8000 2    50   Input ~ 0
 TGT3_ACBUS3
-Text HLabel 13800 2000 2    50   Input ~ 0
+Text HLabel 13800 7200 2    50   Input ~ 0
 TGT3_ACBUS4
 Text HLabel 13800 7300 2    50   Input ~ 0
 TGT3_ACBUS5
-Text HLabel 13800 7500 2    50   Input ~ 0
+Text HLabel 13800 7400 2    50   Input ~ 0
 TGT3_ACBUS6
 $Comp
 L Switch:SW_DIP_x08 SW1
@@ -2303,4 +2303,12 @@ Wire Wire Line
 	15700 3500 15800 3500
 Wire Wire Line
 	15800 3500 15800 3600
+Text Label 1200 9600 0    50   ~ 0
+MUX_TMS
+Text Label 1200 9700 0    50   ~ 0
+MUX_TCK
+Text Label 1200 9800 0    50   ~ 0
+MUX_TDI
+Text Label 1200 9900 0    50   ~ 0
+MUX_TDO
 $EndSCHEMATC
