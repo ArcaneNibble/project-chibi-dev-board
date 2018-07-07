@@ -1079,4 +1079,8 @@ Wire Wire Line
 Wire Wire Line
 	4850 5600 4850 8500
 NoConn ~ 2400 4800
+Text Label 2500 2100 0    50   ~ 0
+CLKIN0
+Text Label 2500 2300 0    50   ~ 0
+CLKIN1
 $EndSCHEMATC

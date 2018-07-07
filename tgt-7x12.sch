@@ -1038,7 +1038,7 @@ Wire Wire Line
 	8450 7900 9900 7900
 Text Label 3500 4400 0    50   ~ 0
 EXPAND0_0
-Text Label 3500 4000 0    50   ~ 0
+Text Label 3500 4100 0    50   ~ 0
 EXPAND0_1
 Text Label 3500 3900 0    50   ~ 0
 EXPAND0_2
@@ -1046,7 +1046,7 @@ Text Label 3500 6300 0    50   ~ 0
 EXPAND0_3
 Text Label 3500 4200 0    50   ~ 0
 EXPAND0_4
-Text Label 3500 4100 0    50   ~ 0
+Text Label 3500 4000 0    50   ~ 0
 EXPAND0_5
 Text Label 3500 6400 0    50   ~ 0
 EXPAND0_6
@@ -1058,7 +1058,7 @@ Text Label 3500 7500 0    50   ~ 0
 EXPAND1_1
 Text Label 3500 7100 0    50   ~ 0
 EXPAND1_2
-Text Label 3500 6800 0    50   ~ 0
+Text Label 3500 6700 0    50   ~ 0
 EXPAND1_3
 Text Label 3500 7400 0    50   ~ 0
 EXPAND1_4
@@ -1066,7 +1066,7 @@ Text Label 3500 7000 0    50   ~ 0
 EXPAND1_5
 Text Label 3500 7200 0    50   ~ 0
 EXPAND1_6
-Text Label 3500 6700 0    50   ~ 0
+Text Label 3500 6800 0    50   ~ 0
 EXPAND1_7
 Text Label 8500 3300 0    50   ~ 0
 EXPAND2_0
@@ -1084,17 +1084,17 @@ Text Label 8500 3900 0    50   ~ 0
 EXPAND2_6
 Text Label 8500 4200 0    50   ~ 0
 EXPAND2_7
-Text Label 8500 7300 0    50   ~ 0
+Text Label 8500 7000 0    50   ~ 0
 EXPAND3_0
-Text Label 8500 7600 0    50   ~ 0
+Text Label 8500 7200 0    50   ~ 0
 EXPAND3_1
 Text Label 8500 7500 0    50   ~ 0
 EXPAND3_2
 Text Label 8500 7800 0    50   ~ 0
 EXPAND3_3
-Text Label 8500 7000 0    50   ~ 0
+Text Label 8500 7300 0    50   ~ 0
 EXPAND3_4
-Text Label 8500 7200 0    50   ~ 0
+Text Label 8500 7600 0    50   ~ 0
 EXPAND3_5
 Text Label 8500 7900 0    50   ~ 0
 EXPAND3_6
@@ -1381,4 +1381,8 @@ NoConn ~ 9900 10600
 NoConn ~ 9900 10700
 NoConn ~ 9900 10800
 NoConn ~ 9900 8100
+Text Label 2650 5100 0    50   ~ 0
+CLKIN0
+Text Label 2650 5200 0    50   ~ 0
+CLKIN1
 $EndSCHEMATC
