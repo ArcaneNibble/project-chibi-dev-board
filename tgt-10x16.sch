@@ -1321,21 +1321,21 @@ Text Label 6400 4800 0    50   ~ 0
 EXPAND0_6
 Text Label 6400 4600 0    50   ~ 0
 EXPAND0_7
-Text Label 2950 5800 0    50   ~ 0
-EXPAND1_0
-Text Label 2950 6200 0    50   ~ 0
-EXPAND1_1
-Text Label 2950 5400 0    50   ~ 0
-EXPAND1_2
-Text Label 6400 4300 0    50   ~ 0
-EXPAND1_3
 Text Label 2950 6000 0    50   ~ 0
-EXPAND1_4
+EXPAND1_0
 Text Label 2950 5600 0    50   ~ 0
-EXPAND1_5
+EXPAND1_1
 Text Label 2950 5900 0    50   ~ 0
-EXPAND1_6
+EXPAND1_2
 Text Label 2950 5500 0    50   ~ 0
+EXPAND1_3
+Text Label 2950 5800 0    50   ~ 0
+EXPAND1_4
+Text Label 2950 6200 0    50   ~ 0
+EXPAND1_5
+Text Label 2950 5400 0    50   ~ 0
+EXPAND1_6
+Text Label 6400 4300 0    50   ~ 0
 EXPAND1_7
 Text Label 9650 5200 0    50   ~ 0
 EXPAND2_0

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title "Project Chibi Test Board"
 Date ""
 Rev "A"
@@ -22,35 +22,35 @@ Text HLabel 14200 8500 0    50   Input ~ 0
 JTAG_TMS
 Text HLabel 14200 8600 0    50   Input ~ 0
 JTAG_TCK
-Text HLabel 9900 9200 2    50   Input ~ 0
-ADBUS0
 Text HLabel 9900 9300 2    50   Input ~ 0
-ADBUS1
-Text HLabel 9900 9400 2    50   Input ~ 0
-ADBUS2
+ADBUS0
 Text HLabel 9900 9600 2    50   Input ~ 0
-ADBUS3
-Text HLabel 9900 9700 2    50   Input ~ 0
-ADBUS4
+ADBUS1
 Text HLabel 9900 9800 2    50   Input ~ 0
-ADBUS5
-Text HLabel 9900 9900 2    50   Input ~ 0
-ADBUS6
+ADBUS2
 Text HLabel 9900 10100 2    50   Input ~ 0
-ADBUS7
-Text HLabel 9900 10200 2    50   Input ~ 0
-ACBUS0
+ADBUS3
 Text HLabel 9900 10300 2    50   Input ~ 0
-ACBUS1
-Text HLabel 9900 10400 2    50   Input ~ 0
-ACBUS2
-Text HLabel 9900 10500 2    50   Input ~ 0
-ACBUS3
-Text HLabel 9900 10700 2    50   Input ~ 0
-ACBUS4
+ADBUS4
 Text HLabel 9900 10900 2    50   Input ~ 0
+ADBUS5
+Text HLabel 14200 6900 0    50   Input ~ 0
+ADBUS6
+Text HLabel 14200 7500 0    50   Input ~ 0
+ADBUS7
+Text HLabel 14200 7100 0    50   Input ~ 0
+ACBUS0
+Text HLabel 14200 6700 0    50   Input ~ 0
+ACBUS1
+Text HLabel 14200 6500 0    50   Input ~ 0
+ACBUS2
+Text HLabel 14200 6300 0    50   Input ~ 0
+ACBUS3
+Text HLabel 14200 6100 0    50   Input ~ 0
+ACBUS4
+Text HLabel 14200 5100 0    50   Input ~ 0
 ACBUS5
-Text HLabel 9900 11000 2    50   Input ~ 0
+Text HLabel 14200 5700 0    50   Input ~ 0
 ACBUS6
 $Comp
 L project-chibi:5M2210ZF256x U4
@@ -1265,21 +1265,21 @@ Wire Wire Line
 	2300 5900 3450 5900
 Wire Wire Line
 	3450 6000 2300 6000
-Text Label 3000 5200 0    50   ~ 0
+Text Label 3000 6000 0    50   ~ 0
 EXPAND0_0
-Text Label 3000 5300 0    50   ~ 0
+Text Label 3000 5900 0    50   ~ 0
 EXPAND0_1
-Text Label 3000 5400 0    50   ~ 0
-EXPAND0_2
-Text Label 3000 5500 0    50   ~ 0
-EXPAND0_3
 Text Label 3000 5700 0    50   ~ 0
+EXPAND0_2
+Text Label 3000 5300 0    50   ~ 0
+EXPAND0_3
+Text Label 3000 5500 0    50   ~ 0
 EXPAND0_4
 Text Label 3000 5800 0    50   ~ 0
 EXPAND0_5
-Text Label 3000 5900 0    50   ~ 0
+Text Label 3000 5200 0    50   ~ 0
 EXPAND0_6
-Text Label 3000 6000 0    50   ~ 0
+Text Label 7000 4300 0    50   ~ 0
 EXPAND0_7
 Wire Wire Line
 	6300 4200 7450 4200
@@ -1331,51 +1331,51 @@ Wire Wire Line
 	14200 1900 13050 1900
 Text Label 7000 4200 0    50   ~ 0
 EXPAND1_0
-Text Label 7000 4300 0    50   ~ 0
+Text Label 3000 5400 0    50   ~ 0
 EXPAND1_1
-Text Label 7000 4400 0    50   ~ 0
-EXPAND1_2
-Text Label 7000 4600 0    50   ~ 0
-EXPAND1_3
-Text Label 7000 4800 0    50   ~ 0
-EXPAND1_4
 Text Label 7000 4900 0    50   ~ 0
-EXPAND1_5
-Text Label 7000 5000 0    50   ~ 0
-EXPAND1_6
+EXPAND1_2
 Text Label 7000 5200 0    50   ~ 0
+EXPAND1_3
+Text Label 7000 5000 0    50   ~ 0
+EXPAND1_4
+Text Label 7000 4800 0    50   ~ 0
+EXPAND1_5
+Text Label 7000 4400 0    50   ~ 0
+EXPAND1_6
+Text Label 7000 4600 0    50   ~ 0
 EXPAND1_7
-Text Label 10600 4600 0    50   ~ 0
-EXPAND2_0
-Text Label 10600 4700 0    50   ~ 0
-EXPAND2_1
-Text Label 10600 4800 0    50   ~ 0
-EXPAND2_2
-Text Label 10600 5000 0    50   ~ 0
-EXPAND2_3
 Text Label 10600 5100 0    50   ~ 0
+EXPAND2_0
+Text Label 10600 4800 0    50   ~ 0
+EXPAND2_1
+Text Label 10600 5000 0    50   ~ 0
+EXPAND2_2
+Text Label 10600 4700 0    50   ~ 0
+EXPAND2_3
+Text Label 10600 4600 0    50   ~ 0
 EXPAND2_4
 Text Label 10600 5300 0    50   ~ 0
 EXPAND2_5
-Text Label 10600 5400 0    50   ~ 0
-EXPAND2_6
 Text Label 10600 5500 0    50   ~ 0
+EXPAND2_6
+Text Label 10600 5400 0    50   ~ 0
 EXPAND2_7
-Text Label 13100 1100 0    50   ~ 0
-EXPAND3_0
-Text Label 13100 1200 0    50   ~ 0
-EXPAND3_1
-Text Label 13100 1400 0    50   ~ 0
-EXPAND3_2
-Text Label 13100 1500 0    50   ~ 0
-EXPAND3_3
-Text Label 13100 1600 0    50   ~ 0
-EXPAND3_4
-Text Label 13100 1700 0    50   ~ 0
-EXPAND3_5
-Text Label 13100 1900 0    50   ~ 0
-EXPAND3_6
 Text Label 13100 2100 0    50   ~ 0
+EXPAND3_0
+Text Label 13100 1600 0    50   ~ 0
+EXPAND3_1
+Text Label 13100 1500 0    50   ~ 0
+EXPAND3_2
+Text Label 13100 1200 0    50   ~ 0
+EXPAND3_3
+Text Label 13100 1400 0    50   ~ 0
+EXPAND3_4
+Text Label 13100 1900 0    50   ~ 0
+EXPAND3_5
+Text Label 13100 1700 0    50   ~ 0
+EXPAND3_6
+Text Label 13100 1100 0    50   ~ 0
 EXPAND3_7
 $Comp
 L Connector_Generic:Conn_01x02 J?
@@ -1577,26 +1577,17 @@ NoConn ~ 14200 4200
 NoConn ~ 14200 4300
 NoConn ~ 14200 4400
 NoConn ~ 14200 4900
-NoConn ~ 14200 5100
 NoConn ~ 14200 5200
 NoConn ~ 14200 5300
 NoConn ~ 14200 5400
 NoConn ~ 14200 5600
-NoConn ~ 14200 5700
 NoConn ~ 14200 5800
 NoConn ~ 14200 6000
-NoConn ~ 14200 6100
 NoConn ~ 14200 6200
-NoConn ~ 14200 6300
-NoConn ~ 14200 6500
 NoConn ~ 14200 6600
-NoConn ~ 14200 6700
-NoConn ~ 14200 6900
 NoConn ~ 14200 7000
-NoConn ~ 14200 7100
 NoConn ~ 14200 7200
 NoConn ~ 14200 7400
-NoConn ~ 14200 7500
 NoConn ~ 14200 4500
 $Comp
 L power:+1V8 #PWR?
@@ -1719,4 +1710,13 @@ F 3 "" H 12700 7800 50  0001 C CNN
 	1    12700 7800
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9900 9200
+NoConn ~ 9900 9400
+NoConn ~ 9900 9700
+NoConn ~ 9900 9900
+NoConn ~ 9900 10200
+NoConn ~ 9900 10400
+NoConn ~ 9900 10500
+NoConn ~ 9900 10700
+NoConn ~ 9900 11000
 $EndSCHEMATC
