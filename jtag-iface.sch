@@ -1393,13 +1393,13 @@ Text HLabel 8800 4400 0    50   Input ~ 0
 TGT0_JTAG_TMS
 Text HLabel 8800 4500 0    50   Input ~ 0
 TGT0_JTAG_TCK
-Text HLabel 8800 6100 0    50   Input ~ 0
-TGT1_JTAG_TDI
-Text HLabel 8800 6200 0    50   Input ~ 0
-TGT1_JTAG_TDO
 Text HLabel 8800 6600 0    50   Input ~ 0
-TGT1_JTAG_TMS
+TGT1_JTAG_TDI
 Text HLabel 8800 7300 0    50   Input ~ 0
+TGT1_JTAG_TDO
+Text HLabel 8800 6700 0    50   Input ~ 0
+TGT1_JTAG_TMS
+Text HLabel 8800 6500 0    50   Input ~ 0
 TGT1_JTAG_TCK
 Text HLabel 8800 7800 0    50   Input ~ 0
 TGT2_JTAG_TDI
@@ -1501,13 +1501,13 @@ Text HLabel 8800 5800 0    50   Input ~ 0
 TGT1_ACBUS1
 Text HLabel 8800 5700 0    50   Input ~ 0
 TGT1_ACBUS2
-Text HLabel 8800 6700 0    50   Input ~ 0
-TGT1_ACBUS3
-Text HLabel 8800 6800 0    50   Input ~ 0
-TGT1_ACBUS4
-Text HLabel 8800 6500 0    50   Input ~ 0
-TGT1_ACBUS5
 Text HLabel 8800 6300 0    50   Input ~ 0
+TGT1_ACBUS3
+Text HLabel 8800 6200 0    50   Input ~ 0
+TGT1_ACBUS4
+Text HLabel 8800 6100 0    50   Input ~ 0
+TGT1_ACBUS5
+Text HLabel 8800 6800 0    50   Input ~ 0
 TGT1_ACBUS6
 Text HLabel 8800 8700 0    50   Input ~ 0
 TGT2_ACBUS0
