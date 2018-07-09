@@ -1083,4 +1083,8 @@ Text Label 2500 2100 0    50   ~ 0
 CLKIN0
 Text Label 2500 2300 0    50   ~ 0
 CLKIN1
+Text Label 2800 4400 0    50   ~ 0
+~DEV_CLR
+Text Label 2800 4500 0    50   ~ 0
+DEV_OE
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title "Project Chibi Test Board"
 Date ""
 Rev "A"
@@ -1725,4 +1725,8 @@ NoConn ~ 8950 10600
 NoConn ~ 8950 10700
 NoConn ~ 8950 10800
 NoConn ~ 8950 10900
+Text Label 12300 4600 0    50   ~ 0
+DEV_OE
+Text Label 12300 4700 0    50   ~ 0
+~DEV_CLR
 $EndSCHEMATC

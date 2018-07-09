@@ -1719,4 +1719,8 @@ NoConn ~ 9900 10400
 NoConn ~ 9900 10500
 NoConn ~ 9900 10700
 NoConn ~ 9900 11000
+Text Label 12750 4700 0    50   ~ 0
+~DEV_CLR
+Text Label 12750 4800 0    50   ~ 0
+DEV_OE
 $EndSCHEMATC
